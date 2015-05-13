@@ -17,18 +17,11 @@ public partial class ObraCEN
 public bool EstaReservada (string p_oid)
 {
         /*PROTECTED REGION ID(BibliotecaENIACGenNHibernate.CEN.BibliotecaENIAC_Obra_estaReservada) ENABLED START*/
-        throw new Exception ("No implementado todav�a...");
+
         // Write here your custom code...
-        //return (_IObraCAD.BuscaPorId (p_oid)).Reservado;
-        /*
-         * bool result = false;
-         * ObraEN obra = _IObraCAD.BuscaPorId (p_oid);
-         * if (obra.Reservado.Equals (true)) {
-         *      result = true;
-         * }
-         *
-         * return result;
-         * */
+
+        throw new NotImplementedException ("Method EstaReservada() not yet implemented.");
+
         /*PROTECTED REGION END*/
 }
 }

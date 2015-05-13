@@ -39,7 +39,7 @@ public System.Collections.Generic.IList<PASEN> ListarPAS (int first, int size)
         list = _IPASCAD.ListarPAS (first, size);
         return list;
 }
-public string New_ (string p_DNI, string p_nombre, string p_apellidos, short p_telefono, string p_correo, Nullable<DateTime> p_penalizacion, string p_contrasenya, bool p_logeado)
+public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado)
 {
         PASEN pASEN = null;
         string oid;

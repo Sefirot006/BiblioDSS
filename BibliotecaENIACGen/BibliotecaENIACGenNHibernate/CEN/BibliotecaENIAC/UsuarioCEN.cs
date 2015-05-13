@@ -32,7 +32,7 @@ public IUsuarioCAD get_IUsuarioCAD ()
         return this._IUsuarioCAD;
 }
 
-public string New_ (string p_DNI, string p_nombre, string p_apellidos, short p_telefono, string p_correo, Nullable<DateTime> p_penalizacion, string p_contrasenya, bool p_logeado)
+public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado)
 {
         UsuarioEN usuarioEN = null;
         string oid;
@@ -61,7 +61,7 @@ public string New_ (string p_DNI, string p_nombre, string p_apellidos, short p_t
         return oid;
 }
 
-public void Modify (string p_Usuario_OID, string p_nombre, string p_apellidos, short p_telefono, string p_correo, Nullable<DateTime> p_penalizacion, string p_contrasenya, bool p_logeado)
+public void Modify (string p_Usuario_OID, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado)
 {
         UsuarioEN usuarioEN = null;
 

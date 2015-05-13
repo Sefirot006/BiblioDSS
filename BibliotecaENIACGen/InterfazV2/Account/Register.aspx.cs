@@ -24,9 +24,9 @@ namespace InterfazV2.Account
         {
             //Obtenemos la informacion de los textBox
             TextBox surname = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("Surname");
-            TextBox DNI = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("DNI");
+            TextBox DNI = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("UserName");
             TextBox telefono = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("Telefono");
-            TextBox name = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("UserName");
+            TextBox name = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("Nombre");
             TextBox correo = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("Email");
             TextBox contrasenya = (TextBox)RegisterUserWizardStep.ContentTemplateContainer.FindControl("Password");
             
@@ -35,26 +35,26 @@ namespace InterfazV2.Account
             string email = null;
             string password = null;
             string apellidos = null;
-            short tlf = 0;
+            int tlf = 0;
             string idDNI = null;
             
 
             //Default para coockeis
             FormsAuthentication.SetAuthCookie(RegisterUser.UserName, false /* createPersistentCookie */);
-            FormsAuthentication.SetAuthCookie(RegisterUser.Email, false /* createPersistentCookie */);
-            FormsAuthentication.SetAuthCookie(RegisterUser.Password, false /* createPersistentCookie */);
+            //FormsAuthentication.SetAuthCookie(RegisterUser.Email, false /* createPersistentCookie */);
+            //FormsAuthentication.SetAuthCookie(RegisterUser.Password, false /* createPersistentCookie */);
             
             //insertamos en la variables los datos de los text box
             nombre = name.Text;
             apellidos = surname.Text;
-            tlf = short.Parse(telefono.Text);
+            tlf = Convert.ToInt32(telefono.Text);
             idDNI = DNI.Text;
             email = correo.Text;
             password = contrasenya.Text;
            
             //Creamos e insertamos un usuario nuevo registrado
             UsuarioCEN usuCen = new UsuarioCEN();
-            usuCen.New_(idDNI, nombre, apellidos, tlf, email, DateTime.Now, password, true);
+            usuCen.New_(idDNI, nombre, apellidos, tlf, email, 0, password, true);
 
             string continueUrl = RegisterUser.ContinueDestinationPageUrl;
             if (String.IsNullOrEmpty(continueUrl))

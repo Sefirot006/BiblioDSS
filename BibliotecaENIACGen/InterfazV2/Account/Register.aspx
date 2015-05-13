@@ -30,10 +30,17 @@
                         <fieldset class="register">
                             <legend>Información de cuenta</legend>
                             <p>
-                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Nombre de usuario:</asp:Label>
+                                <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">DNI/NIE del usuario:</asp:Label>
                                 <asp:TextBox ID="UserName" runat="server" CssClass="textEntry"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" 
-                                     CssClass="failureNotification" ErrorMessage="El nombre de usuario es obligatorio." ToolTip="El nombre de usuario es obligatorio." 
+                                     CssClass="failureNotification" ErrorMessage="DNI/NIE del usuario es obligatorio." ToolTip="DNI/NIE del usuario es obligatorio." 
+                                     ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
+                            </p>
+                             <p>
+                                <asp:Label ID="NombreLabel" runat="server" AssociatedControlID="Nombre">Nombre:</asp:Label>
+                                <asp:TextBox ID="Nombre" runat="server" CssClass="textEntry"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Nombre" 
+                                     CssClass="failureNotification" ErrorMessage="El nombre es obligatorio." ToolTip="El nombre es obligatorio." 
                                      ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
                             </p>
                              <p>
@@ -49,13 +56,7 @@
                                      ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
                             </p>
 
-                            <p>
-                                <asp:Label ID="DNILabel" runat="server" AssociatedControlID="DNI">DNI/NIE:</asp:Label>
-                                <asp:TextBox ID="DNI" runat="server" CssClass="textEntry"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="DNI" 
-                                     CssClass="failureNotification" ErrorMessage="El DNI o NIE es obligatorio." ToolTip="El DNI o NIE es obligatorio." 
-                                     ValidationGroup="RegisterUserValidationGroup">*</asp:RequiredFieldValidator>
-                            </p>
+                           
                             <p>
                                 <asp:Label ID="TelefonoLabel" runat="server" AssociatedControlID="Telefono">Teléfono:</asp:Label>
                                 <asp:TextBox ID="Telefono" runat="server" CssClass="textEntry"></asp:TextBox>

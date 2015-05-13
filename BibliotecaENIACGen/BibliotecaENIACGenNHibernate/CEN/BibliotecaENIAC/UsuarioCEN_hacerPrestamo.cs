@@ -20,10 +20,7 @@ public void HacerPrestamo (string p_oid)
 
         // Write here your custom code...
 
-
-        PrestamoEN prestamo = new PrestamoEN (); //_IUsuarioCAD.DameporOID(p_oid);
-
-
+        throw new NotImplementedException ("Method HacerPrestamo() not yet implemented.");
 
         /*PROTECTED REGION END*/
 }

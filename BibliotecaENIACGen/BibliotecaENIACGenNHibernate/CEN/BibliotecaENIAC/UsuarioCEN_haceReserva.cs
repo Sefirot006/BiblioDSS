@@ -20,10 +20,7 @@ public bool HaceReserva (string p_oid)
 
         // Write here your custom code...
 
-        ReservaEN reserva = new ReservaEN ();
-
-        return true;
-
+        throw new NotImplementedException ("Method HaceReserva() not yet implemented.");
 
         /*PROTECTED REGION END*/
 }

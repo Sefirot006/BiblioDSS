@@ -10,13 +10,13 @@
 					<property name="Apellidos" type="string"> 
 						<column name="[apellidos]"  not-null="true"/>
 					</property>
-					<property name="Telefono" type="short"> 
+					<property name="Telefono" type="integer"> 
 						<column name="[telefono]"  not-null="true"/>
 					</property>
 					<property name="Correo" type="string"> 
 						<column name="[correo]"  not-null="true"/>
 					</property>
-					<property name="Penalizacion" type="date"> 
+					<property name="Penalizacion" type="integer"> 
 						<column name="[penalizacion]"  not-null="true"/>
 					</property>
 					<property name="Contrasenya" type="string"> 
