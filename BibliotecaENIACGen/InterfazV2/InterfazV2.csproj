@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{08A377BB-4601-4FB6-AF42-1DAB168CADF4}</ProjectGuid>
+    <ProjectGuid>{D45DC800-E0D3-44AA-B01A-ADD19C6FC5B2}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -55,7 +55,6 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
-    <Content Include="MiEspacio.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -116,13 +115,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="MiEspacio.aspx.cs">
-      <DependentUpon>MiEspacio.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MiEspacio.aspx.designer.cs">
-      <DependentUpon>MiEspacio.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -140,13 +132,9 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BibliotecaENIACGenNHibernate\BibliotecaEniacGenNHibernate.csproj">
+    <ProjectReference Include="..\BibliotecaENIACGenNHibernate\BibliotecaENIACGenNHibernate.csproj">
       <Project>{66C66636-FD6A-4A3F-A7C5-FE88BBA117AF}</Project>
-      <Name>BibliotecaEniacGenNHibernate</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\InitializeDB\InitializeDB.csproj">
-      <Project>{707DAD7F-5632-4AD7-860E-73A181C52EE2}</Project>
-      <Name>InitializeDB</Name>
+      <Name>BibliotecaENIACGenNHibernate</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -157,7 +145,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1349</DevelopmentServerPort>
+          <DevelopmentServerPort>52607</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

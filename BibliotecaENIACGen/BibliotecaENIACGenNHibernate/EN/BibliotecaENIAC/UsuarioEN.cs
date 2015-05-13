@@ -27,7 +27,7 @@ private string apellidos;
  *
  */
 
-private short telefono;
+private int telefono;
 
 /**
  *
@@ -39,7 +39,7 @@ private string correo;
  *
  */
 
-private Nullable<DateTime> penalizacion;
+private int penalizacion;
 
 /**
  *
@@ -96,7 +96,7 @@ public virtual string Apellidos {
 }
 
 
-public virtual short Telefono {
+public virtual int Telefono {
         get { return telefono; } set { telefono = value;  }
 }
 
@@ -106,7 +106,7 @@ public virtual string Correo {
 }
 
 
-public virtual Nullable<DateTime> Penalizacion {
+public virtual int Penalizacion {
         get { return penalizacion; } set { penalizacion = value;  }
 }
 
@@ -154,7 +154,7 @@ public UsuarioEN()
 
 
 
-public UsuarioEN(string dNI, string nombre, string apellidos, short telefono, string correo, Nullable<DateTime> penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
+public UsuarioEN(string dNI, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
 {
         this.init (dNI, nombre, apellidos, telefono, correo, penalizacion, recomienda, reserva, prestamo, contrasenya, logeado, desiderata);
 }
@@ -165,7 +165,7 @@ public UsuarioEN(UsuarioEN usuario)
         this.init (usuario.DNI, usuario.Nombre, usuario.Apellidos, usuario.Telefono, usuario.Correo, usuario.Penalizacion, usuario.Recomienda, usuario.Reserva, usuario.Prestamo, usuario.Contrasenya, usuario.Logeado, usuario.Desiderata);
 }
 
-private void init (string dNI, string nombre, string apellidos, short telefono, string correo, Nullable<DateTime> penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
+private void init (string dNI, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
 {
         this.DNI = DNI;
 

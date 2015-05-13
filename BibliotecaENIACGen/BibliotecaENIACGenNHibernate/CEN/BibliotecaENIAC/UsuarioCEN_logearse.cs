@@ -19,14 +19,9 @@ public bool Logearse (string p_oid, string contrasenya)
         /*PROTECTED REGION ID(BibliotecaENIACGenNHibernate.CEN.BibliotecaENIAC_Usuario_logearse) ENABLED START*/
 
         // Write here your custom code...
-        bool result = false;
-        UsuarioEN usuario = _IUsuarioCAD.DameporOID (p_oid);
 
-        if (usuario.Contrasenya.Equals (contrasenya)) {
-                result = true;
-                usuario.Logeado = true;
-        }
-        return result;
+        throw new NotImplementedException ("Method Logearse() not yet implemented.");
+
         /*PROTECTED REGION END*/
 }
 }
