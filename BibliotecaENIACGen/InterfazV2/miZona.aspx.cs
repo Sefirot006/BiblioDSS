@@ -34,7 +34,7 @@ namespace InterfazV2
                 //diferentes vistas según el tipo de usuario
                 if (userEN.Tipousuario == 1)//usuario normal
                 {
-                    Response.Redirect("About.aspx");
+                    Response.Redirect("zonaUsuario.aspx");
 
                 }
                 else if (userEN.Tipousuario == 2)//usuario PAS
@@ -43,7 +43,7 @@ namespace InterfazV2
                 }
                 else if (userEN.Tipousuario == 3)//usuario Director
                 {
-
+                    Response.Redirect("zonaDirector.aspx");
                 }
                 
 
