@@ -76,3 +76,15 @@ C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.g
 C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
 C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.csprojResolveAssemblyReference.cache
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb

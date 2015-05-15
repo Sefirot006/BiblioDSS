@@ -43,18 +43,18 @@ public PASEN() : base ()
 
 
 
-public PASEN(string dNI, BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DirectorEN director, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> acepta, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
+public PASEN(string dNI, BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DirectorEN director, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> acepta, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata, int tipousuario)
 {
-        this.init (dNI, director, acepta, nombre, apellidos, telefono, correo, penalizacion, recomienda, reserva, prestamo, contrasenya, logeado, desiderata);
+        this.init (dNI, director, acepta, nombre, apellidos, telefono, correo, penalizacion, recomienda, reserva, prestamo, contrasenya, logeado, desiderata, tipousuario);
 }
 
 
 public PASEN(PASEN pAS)
 {
-        this.init (pAS.DNI, pAS.Director, pAS.Acepta, pAS.Nombre, pAS.Apellidos, pAS.Telefono, pAS.Correo, pAS.Penalizacion, pAS.Recomienda, pAS.Reserva, pAS.Prestamo, pAS.Contrasenya, pAS.Logeado, pAS.Desiderata);
+        this.init (pAS.DNI, pAS.Director, pAS.Acepta, pAS.Nombre, pAS.Apellidos, pAS.Telefono, pAS.Correo, pAS.Penalizacion, pAS.Recomienda, pAS.Reserva, pAS.Prestamo, pAS.Contrasenya, pAS.Logeado, pAS.Desiderata, pAS.Tipousuario);
 }
 
-private void init (string dNI, BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DirectorEN director, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> acepta, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
+private void init (string dNI, BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DirectorEN director, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> acepta, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata, int tipousuario)
 {
         this.DNI = DNI;
 
@@ -84,6 +84,8 @@ private void init (string dNI, BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.D
         this.Logeado = logeado;
 
         this.Desiderata = desiderata;
+
+        this.Tipousuario = tipousuario;
 }
 
 public override bool Equals (object obj)
