@@ -250,9 +250,11 @@ div.accountInfo
     height: 171px;
     width: 810px;
 }
-#formularioBusqueda .TextBox
+
+.btnMenuMiZona
 {
-    size:100px;
+    border: 1px solid #4E667D;
+    color: #DDE4EC;
 }
 /* MISC  
 ----------------------------------------------------------*/
