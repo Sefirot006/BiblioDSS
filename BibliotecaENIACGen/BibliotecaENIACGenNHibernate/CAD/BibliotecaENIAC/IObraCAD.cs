@@ -29,6 +29,5 @@ System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC
 
 
 System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorTematica (string tema);
-
 }
 }

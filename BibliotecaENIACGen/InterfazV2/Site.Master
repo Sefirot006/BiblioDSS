@@ -35,7 +35,7 @@
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Dónde estamos"/>
-                        <asp:MenuItem NavigateUrl="~/MiEspacio.aspx" Text="Mi espacio"/>
+                        <asp:MenuItem NavigateUrl="~/miZona.aspx" Text="Mi zona"/>
                     </Items>
                 </asp:Menu>
             </div>

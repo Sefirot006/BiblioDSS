@@ -25,6 +25,9 @@
 					<property name="Logeado" type="boolean"> 
 						<column name="[logeado]"  not-null="true"/>
 					</property>
+					<property name="Tipousuario" type="integer"> 
+						<column name="[tipousuario]"  not-null="true"/>
+					</property>
 			
 			
 			
@@ -69,6 +72,8 @@
 					      	</key>
 							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN"/>
 					    </bag>
+					
+			
 					
 					
 					

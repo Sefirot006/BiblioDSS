@@ -54,7 +54,7 @@ namespace InterfazV2.Account
            
             //Creamos e insertamos un usuario nuevo registrado
             UsuarioCEN usuCen = new UsuarioCEN();
-            usuCen.New_(idDNI, nombre, apellidos, tlf, email, 0, password, true);
+            usuCen.New_(idDNI, nombre, apellidos, tlf, email, 0, password, true, 1);
 
             string continueUrl = RegisterUser.ContinueDestinationPageUrl;
             if (String.IsNullOrEmpty(continueUrl))

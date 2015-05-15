@@ -32,7 +32,7 @@ public IDirectorCAD get_IDirectorCAD ()
         return this._IDirectorCAD;
 }
 
-public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado)
+public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado, int p_tipousuario)
 {
         DirectorEN directorEN = null;
         string oid;
@@ -54,6 +54,8 @@ public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_tel
         directorEN.Contrasenya = p_contrasenya;
 
         directorEN.Logeado = p_logeado;
+
+        directorEN.Tipousuario = p_tipousuario;
 
         //Call to DirectorCAD
 

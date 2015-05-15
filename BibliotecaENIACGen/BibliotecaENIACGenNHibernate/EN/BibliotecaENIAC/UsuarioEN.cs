@@ -77,6 +77,12 @@ private bool logeado;
 
 private System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata;
 
+/**
+ *
+ */
+
+private int tipousuario;
+
 
 
 
@@ -141,6 +147,11 @@ public virtual System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.
 }
 
 
+public virtual int Tipousuario {
+        get { return tipousuario; } set { tipousuario = value;  }
+}
+
+
 
 
 
@@ -154,18 +165,18 @@ public UsuarioEN()
 
 
 
-public UsuarioEN(string dNI, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
+public UsuarioEN(string dNI, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata, int tipousuario)
 {
-        this.init (dNI, nombre, apellidos, telefono, correo, penalizacion, recomienda, reserva, prestamo, contrasenya, logeado, desiderata);
+        this.init (dNI, nombre, apellidos, telefono, correo, penalizacion, recomienda, reserva, prestamo, contrasenya, logeado, desiderata, tipousuario);
 }
 
 
 public UsuarioEN(UsuarioEN usuario)
 {
-        this.init (usuario.DNI, usuario.Nombre, usuario.Apellidos, usuario.Telefono, usuario.Correo, usuario.Penalizacion, usuario.Recomienda, usuario.Reserva, usuario.Prestamo, usuario.Contrasenya, usuario.Logeado, usuario.Desiderata);
+        this.init (usuario.DNI, usuario.Nombre, usuario.Apellidos, usuario.Telefono, usuario.Correo, usuario.Penalizacion, usuario.Recomienda, usuario.Reserva, usuario.Prestamo, usuario.Contrasenya, usuario.Logeado, usuario.Desiderata, usuario.Tipousuario);
 }
 
-private void init (string dNI, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata)
+private void init (string dNI, string nombre, string apellidos, int telefono, string correo, int penalizacion, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN> recomienda, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN> prestamo, string contrasenya, bool logeado, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> desiderata, int tipousuario)
 {
         this.DNI = DNI;
 
@@ -191,6 +202,8 @@ private void init (string dNI, string nombre, string apellidos, int telefono, st
         this.Logeado = logeado;
 
         this.Desiderata = desiderata;
+
+        this.Tipousuario = tipousuario;
 }
 
 public override bool Equals (object obj)

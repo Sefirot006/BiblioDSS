@@ -104,6 +104,9 @@ public void Modify (UsuarioEN usuario)
 
                 usuarioEN.Logeado = usuario.Logeado;
 
+
+                usuarioEN.Tipousuario = usuario.Tipousuario;
+
                 session.Update (usuarioEN);
                 SessionCommit ();
         }

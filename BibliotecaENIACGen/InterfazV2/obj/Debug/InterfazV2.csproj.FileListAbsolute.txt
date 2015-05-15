@@ -40,20 +40,6 @@ C:\Documents and Settings\ooh4riaUser\Desktop\DSS-5-47\BibliotecaENIACGen\Interf
 C:\Documents and Settings\ooh4riaUser\Desktop\DSS-5-47\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\ooh4riaUser\Desktop\DSS-5-47\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
 C:\Documents and Settings\ooh4riaUser\Desktop\DSS-5-47\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\InitializeDB.exe
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\InitializeDB.pdb
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
-C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
 C:\Users\titan\Desktop\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.csprojResolveAssemblyReference.cache
 C:\Users\titan\Desktop\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
 C:\Users\titan\Desktop\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
@@ -78,3 +64,39 @@ C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InterfazV2\bin\
 C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
 C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.csprojResolveAssemblyReference.cache
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
+D:\Repositorios\master\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.csprojResolveAssemblyReference.cache
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb

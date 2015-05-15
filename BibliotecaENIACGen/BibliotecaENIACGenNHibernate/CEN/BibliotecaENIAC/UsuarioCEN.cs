@@ -32,7 +32,7 @@ public IUsuarioCAD get_IUsuarioCAD ()
         return this._IUsuarioCAD;
 }
 
-public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado)
+public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado, int p_tipousuario)
 {
         UsuarioEN usuarioEN = null;
         string oid;
@@ -55,13 +55,15 @@ public string New_ (string p_DNI, string p_nombre, string p_apellidos, int p_tel
 
         usuarioEN.Logeado = p_logeado;
 
+        usuarioEN.Tipousuario = p_tipousuario;
+
         //Call to UsuarioCAD
 
         oid = _IUsuarioCAD.New_ (usuarioEN);
         return oid;
 }
 
-public void Modify (string p_Usuario_OID, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado)
+public void Modify (string p_Usuario_OID, string p_nombre, string p_apellidos, int p_telefono, string p_correo, int p_penalizacion, string p_contrasenya, bool p_logeado, int p_tipousuario)
 {
         UsuarioEN usuarioEN = null;
 
@@ -75,6 +77,7 @@ public void Modify (string p_Usuario_OID, string p_nombre, string p_apellidos, i
         usuarioEN.Penalizacion = p_penalizacion;
         usuarioEN.Contrasenya = p_contrasenya;
         usuarioEN.Logeado = p_logeado;
+        usuarioEN.Tipousuario = p_tipousuario;
         //Call to UsuarioCAD
 
         _IUsuarioCAD.Modify (usuarioEN);
