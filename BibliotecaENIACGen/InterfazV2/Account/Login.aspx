@@ -22,10 +22,10 @@
                 <fieldset class="login">
                     <legend>Información de cuenta</legend>
                     <p>
-                        <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Nombre de usuario:</asp:Label>
+                        <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">DNI/NIE de usuario:</asp:Label>
                         <asp:TextBox ID="UserName" runat="server" CssClass="textEntry"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" 
-                             CssClass="failureNotification" ErrorMessage="El nombre de usuario es obligatorio." ToolTip="El nombre de usuario es obligatorio." 
+                             CssClass="failureNotification" ErrorMessage="El nombre de usuario es obligatorio." ToolTip="El DNI/NIE de usuario es obligatorio." 
                              ValidationGroup="LoginUserValidationGroup">*</asp:RequiredFieldValidator>
                     </p>
                     <p>

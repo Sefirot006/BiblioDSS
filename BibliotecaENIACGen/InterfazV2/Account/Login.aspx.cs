@@ -5,13 +5,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
 
 using BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC;
 using BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC;
@@ -33,13 +26,17 @@ namespace InterfazV2.Account
         protected void boton_registro(object sender, EventArgs e)
         {
             UsuarioCEN user = new UsuarioCEN();
+            if (new UsuarioCEN().Logearse(LoginUser.UserName, LoginUser.Password))
+            {
 
-            Session["idUser"] = LoginUser.UserName;
-            Session["pass"] = LoginUser.Password;
-            string usuario = Convert.ToString(Session["idUser"]);
-            string pass = Convert.ToString(Session["pass"]);
+                Session["idUser"] = new UsuarioCEN().DameporOID(LoginUser.UserName).Nombre;
+                Session["pass"] = LoginUser.Password;
+            
+                string usuario = Convert.ToString(Session["idUser"]);
+                string pass = Convert.ToString(Session["pass"]);
 
-            Session.Timeout = 10000;
+                Session.Timeout = 10000;
+            }
 
         }
 
