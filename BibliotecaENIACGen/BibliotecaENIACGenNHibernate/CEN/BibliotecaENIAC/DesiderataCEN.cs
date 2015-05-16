@@ -90,6 +90,14 @@ public System.Collections.Generic.IList<DesiderataEN> ListaDesideratas (int firs
         list = _IDesiderataCAD.ListaDesideratas (first, size);
         return list;
 }
+
+public System.Collections.Generic.IList<DesiderataEN> listarDesideratas() 
+{
+    System.Collections.Generic.IList<DesiderataEN> list = null;
+    list = _IDesiderataCAD.listarDesideratas();
+    return list;
+}
+
 public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> ListaDesideratasPendientes (bool aceptada)
 {
         return _IDesiderataCAD.ListaDesideratasPendientes (aceptada);

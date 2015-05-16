@@ -18,6 +18,8 @@ UsuarioEN DameporOID (string DNI);
 
 System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.UsuarioEN> DamePorNombre(string nombre);
 
+UsuarioEN dameUsuario(string nombre, string contrasenya);
+
 System.Collections.Generic.IList<UsuarioEN> ListaUsuarios (int first, int size);
 }
 }

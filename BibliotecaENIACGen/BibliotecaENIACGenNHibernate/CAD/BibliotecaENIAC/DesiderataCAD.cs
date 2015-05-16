@@ -174,6 +174,33 @@ public System.Collections.Generic.IList<DesiderataEN> ListaDesideratas (int firs
         return result;
 }
 
+public System.Collections.Generic.IList<DesiderataEN> listarDesideratas()
+{
+    System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> result;
+    int i = 0;
+    try
+    {
+        SessionInitializeTransaction();
+        String sql = @"FROM DesiderataEN";
+        IQuery query = session.CreateQuery(sql);
+        result = query.List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN>();
+        SessionCommit();
+    }
+
+    catch (Exception ex)
+    {
+        SessionRollBack();
+        if (ex is BibliotecaENIACGenNHibernate.Exceptions.ModelException)
+            throw ex;
+        throw new BibliotecaENIACGenNHibernate.Exceptions.DataLayerException("Error en DesiderataCAD.", ex);
+    }
+    finally
+    {
+        SessionClose();
+    }
+    return result;
+}
+
 public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> ListaDesideratasPendientes (bool aceptada)
 {
         System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> result;

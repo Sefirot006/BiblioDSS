@@ -197,6 +197,19 @@ public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.Bibliote
     return result;
 }
 
+public UsuarioEN dameUsuario(string nombre, string contrasenya)
+{
+    System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.UsuarioEN> result = null;
+    result = DamePorNombre(nombre);
+    if (result != null && result.Count != 0)
+    {
+        foreach (UsuarioEN usuario in result)
+            if (usuario.Nombre == nombre && usuario.Contrasenya == contrasenya)
+                return usuario;
+    }
+    return null;
+}
+
 public System.Collections.Generic.IList<UsuarioEN> ListaUsuarios (int first, int size)
 {
         System.Collections.Generic.IList<UsuarioEN> result = null;

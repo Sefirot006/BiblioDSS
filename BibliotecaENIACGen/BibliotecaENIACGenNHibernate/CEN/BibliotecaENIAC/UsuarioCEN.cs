@@ -101,6 +101,11 @@ public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.Bibliote
     return _IUsuarioCAD.DamePorNombre(nombre);
 }
 
+public UsuarioEN dameUsuario(string nombre, string contrasenya)
+{
+    return _IUsuarioCAD.dameUsuario(nombre, contrasenya);
+}
+
 public System.Collections.Generic.IList<UsuarioEN> ListaUsuarios (int first, int size)
 {
         System.Collections.Generic.IList<UsuarioEN> list = null;
