@@ -14,19 +14,21 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //UsuarioEN usuario
         }
 
-        protected void btnAceptar_Click1(object sender, EventArgs e)
+        protected void btnAceptar_Click(object sender, EventArgs e)
         {
             if (txtAutor.Text != "" && txtTitulo.Text != "")
             {
                 DesiderataCEN desiderata = new DesiderataCEN();
+                
             }
             else
-                labelError.Text = "Al menos debe introducir Título y Autor";
+            {
+                labelError.Text = "Introducir al menos Título y Autor";
+                labelError.Visible = true;
+            }
         }
-
-        
     }
 }
