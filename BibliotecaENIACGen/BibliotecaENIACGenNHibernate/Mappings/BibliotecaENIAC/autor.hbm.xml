@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="BibliotecaENIACGenNHibernate"
+		                   namespace="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC">
+			<class name="AutorEN" table="[Autor]">
+						<id name="Nombre" column="[nombre]"/>
+			
+			
+		  			
+						<bag name="Escribe" table="[autor_obra]"  >
+							<key>
+									<column name="[FK_nombre_idEs escrita]"/>
+							</key>
+      						<many-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN">
+									<column name="[FK_IsbnObra_idObra]"/>
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<bag name="Rec" >
+							<key>
+								<column name="[FK_nombre_idAutor]"/>
+					      	</key>
+							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN"/>
+					    </bag>
+					
+					
+					
+					
+		
+		  </class>
+		  
+		  <query name="AutorENReadAllHQL">from AutorEN</query>
+		  <query name="AutorENbuscarAutorHQL"><![CDATA[FROM AutorEN]]></query>
+		</hibernate-mapping>
+	
