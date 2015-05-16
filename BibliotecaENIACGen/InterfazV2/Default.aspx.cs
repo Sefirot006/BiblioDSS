@@ -14,16 +14,24 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["usuario"] != null)
+            UsuarioEN aux = (UsuarioEN)Session["usuario"];
+            if (aux != null)
             {
-                
+                labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
+                linkSalir.Text = "Salir";
+                labelUsuario.Visible = true;
+                linkSalir.Visible = true;
+            }
+            else
+            {
+                linkSalir.Text = "Iniciar sesión";
             }
 
 
                 /*<AnonymousTemplate>
                         [ <a href="formLogin.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a> ]
                     </AnonymousTemplate>*/
-                Session["usuario"] = null;
+                
             ObraCEN obra = new ObraCEN();
             
             /*obra.New_("UML Distilled: A Brief Guide to the Standard Object Modeling Language", 2, "Martin Fowler", "Software", 345, false, false);
@@ -52,7 +60,6 @@ namespace InterfazV2
                 return;
             }
 
-
             if (listFiltradaPorAutor != null)
             {
                 if (listFiltradaPorAutor.Count == 0)
@@ -77,7 +84,6 @@ namespace InterfazV2
                     }
                     else
                     {
-
                         img.Text = "<img src ='" + obras.Imagen + "' width='100' height='100'>";
                         Panel2.Controls.Add(img);
                         Panel2.Controls.Add(new LiteralControl("<br>"));
@@ -107,7 +113,6 @@ namespace InterfazV2
                             if (i != obras.Escrita.Count -1)
                             {
                                 lAutor.Text += obras.Escrita[i].Nombre + ",";
-
                             }
                             else
                             {
@@ -134,18 +139,15 @@ namespace InterfazV2
                     Label lTematica = new Label();
                     if (obras.Tematica != null)
                     {
-
                         for (i = 0; i < obras.Tematica.Count; i++)
                         {
                             if (i != obras.Tematica.Count - 1)
                             {
                                 lTematica.Text += obras.Tematica[i].Nombre + ",";
-
                             }
                             else
                             {
                                 lTematica.Text += obras.Tematica[i].Nombre;
-
                             }
                         }
                     }
@@ -183,8 +185,7 @@ namespace InterfazV2
                     Panel2.Controls.Add(new LiteralControl("<br>"));
                     Panel2.Controls.Add(new LiteralControl("<br>"));
                     ejemplaresDisp = 0;
-                }
-                
+                }  
             }
         }
 
@@ -205,7 +206,6 @@ namespace InterfazV2
                 return;
             }
 
-
             if (listFiltradaPorAutor != null)
             {
                 if (listFiltradaPorAutor.Count == 0)
@@ -217,12 +217,9 @@ namespace InterfazV2
                 //Panel2.Controls.Add(new LiteralControl("<br><br><br><br><br><br><br><br><br><br>"));
                 Panel2.Controls.Add(new LiteralControl("<br><center><b><u> Resultado de la búsqueda: </u></center><br><br>"));
 
-
-
                 foreach (ObraEN obras in listFiltradaPorAutor)
                 {
                     //IMAGEN
-
                     Label img = new Label();
                     if (obras.Imagen.ToString().Equals("0"))
                     {
@@ -230,7 +227,6 @@ namespace InterfazV2
                     }
                     else
                     {
-
                         img.Text = "<img src ='" + obras.Imagen + "' width='100' height='100'>";
                         Panel2.Controls.Add(img);
                         Panel2.Controls.Add(new LiteralControl("<br>"));
@@ -260,12 +256,10 @@ namespace InterfazV2
                             if (i != obras.Escrita.Count - 1)
                             {
                                 lAutor.Text += obras.Escrita[i].Nombre + ",";
-
                             }
                             else
                             {
                                 lAutor.Text += obras.Escrita[i].Nombre;
-
                             }
                         }
                     }
@@ -287,18 +281,15 @@ namespace InterfazV2
                     Label lTematica = new Label();
                     if (obras.Tematica != null)
                     {
-
                         for (i = 0; i < obras.Tematica.Count; i++)
                         {
                             if (i != obras.Tematica.Count - 1)
                             {
                                 lTematica.Text += obras.Tematica[i].Nombre + ",";
-
                             }
                             else
                             {
                                 lTematica.Text += obras.Tematica[i].Nombre;
-
                             }
                         }
                     }
@@ -337,10 +328,7 @@ namespace InterfazV2
                     Panel2.Controls.Add(new LiteralControl("<br>"));
                     ejemplaresDisp = 0;
                 }
-
-            } 
-                
-            
+            }                  
         }
 
         public void mostrarObrasT_click(object sender, EventArgs e)
@@ -359,7 +347,6 @@ namespace InterfazV2
                 return;
             }
 
-
             if (listFiltradaPorAutor != null)
             {
                 if (listFiltradaPorAutor.Count == 0)
@@ -370,13 +357,10 @@ namespace InterfazV2
 
                 //Panel2.Controls.Add(new LiteralControl("<br><br><br><br><br><br><br><br><br><br>"));
                 Panel2.Controls.Add(new LiteralControl("<br><center><b><u> Resultado de la búsqueda: </u></center><br><br>"));
-
-               
-                
+           
                 foreach (ObraEN obras in listFiltradaPorAutor)
                 {
                     //IMAGEN
-
                     Label img = new Label();
                     if (obras.Imagen.ToString().Equals("0"))
                     {
@@ -384,7 +368,6 @@ namespace InterfazV2
                     }
                     else
                     {
-
                         img.Text = "<img src ='" + obras.Imagen + "' width='100' height='100'>";
                         Panel2.Controls.Add(img);
                         Panel2.Controls.Add(new LiteralControl("<br>"));
@@ -414,12 +397,10 @@ namespace InterfazV2
                             if (i != obras.Escrita.Count -1)
                             {
                                 lAutor.Text += obras.Escrita[i].Nombre + ",";
-
                             }
                             else
                             {
                                 lAutor.Text += obras.Escrita[i].Nombre;
-
                             }
                         }
                     }
@@ -447,12 +428,10 @@ namespace InterfazV2
                             if (i != obras.Tematica.Count - 1)
                             {
                                 lTematica.Text += obras.Tematica[i].Nombre + ",";
-
                             }
                             else
                             {
                                 lTematica.Text += obras.Tematica[i].Nombre;
-
                             }
                         }
                     }
@@ -490,12 +469,25 @@ namespace InterfazV2
                     Panel2.Controls.Add(new LiteralControl("<br>"));
                     Panel2.Controls.Add(new LiteralControl("<br>"));
                     ejemplaresDisp = 0;
-                }
-                
-            }
+                }         
+            }   
+        }
 
-            
-                
+        protected void linkSalir_Click(object sender, EventArgs e)
+        {
+            UsuarioEN aux = (UsuarioEN)Session["usuario"];
+            if (aux != null)
+            {
+                Session.Remove("usuario");
+                linkSalir.Text = "Iniciar sesión";
+                labelUsuario.Visible = false;
+            }
+            else
+            {
+                labelUsuario.Visible = false;
+                linkSalir.Text = "Iniciar sesión";
+                Response.Redirect("formLogin.aspx");
+            }
             
         }
     }

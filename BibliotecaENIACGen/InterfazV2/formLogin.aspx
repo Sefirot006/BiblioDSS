@@ -17,7 +17,7 @@
                     <td colspan="2" align="left"> Usuario: </td>
                 </tr>
                 <tr>
-                    <td colspan="2" align="left"> <asp:TextBox ID="txtUsuario" runat="server" Width="250px"></asp:TextBox> </td>
+                    <td colspan="2" align="left"> <asp:TextBox ID="txtUsuario" runat="server" Width="250px"> </asp:TextBox> </td>
                 </tr>
 
                 <tr>

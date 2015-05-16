@@ -6,6 +6,10 @@
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <asp:Panel ID="Panel1"  runat="server">
+        <div align="right"> 
+            <asp:Label ID="labelUsuario" runat="server" Text=""></asp:Label> 
+            <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
+        </div>
         <div id="formularioBusqueda">
             <asp:Label ID="Label1"  runat="server" Text="Buscar: "></asp:Label>
             <asp:TextBox ID="textBox"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>

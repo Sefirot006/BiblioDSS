@@ -36,13 +36,14 @@ namespace InterfazV2
                     if (!usuario.Logearse(nombre,pass1))
                     {
                         usuario.New_(id, nombre, apellido, telefono, email, penal, pass1, true, tipo);
+                        UsuarioEN aux = usuario.dameUsuario(nombre,pass1);
+                        Session["usuario"] = aux;
                         Response.Redirect("Default.aspx");
                     }
                     else
                     {
                         labelError.Text = "El usuario que intenta crear ya existe";
                         labelError.Visible = true;
-                        //Response.Redirect("formRegistro.aspx");
                     }
                 }
                 else
@@ -56,15 +57,6 @@ namespace InterfazV2
                 labelError.Text = "Introducir todos los campos";
                 labelError.Visible = true;
             }
-            
-            
-
-           /* string continueUrl = RegisterUser.ContinueDestinationPageUrl;
-            if (String.IsNullOrEmpty(continueUrl))
-            {
-                continueUrl = "~/";
-            }
-            Response.Redirect(continueUrl);*/
         }
     }
 }

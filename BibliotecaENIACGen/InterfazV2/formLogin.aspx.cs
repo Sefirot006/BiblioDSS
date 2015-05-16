@@ -25,9 +25,10 @@ namespace InterfazV2
                 UsuarioCEN usuario = new UsuarioCEN();
                 if (usuario.Logearse(txtUsuario.Text, txtPass.Text))
                 {
-                    Session["usuario"] = txtUsuario.Text;
-                    Session["pass"] = txtPass.Text;
-                    Response.Redirect("Default.aspx");
+                    UsuarioEN aux = new UsuarioCEN().dameUsuario(txtUsuario.Text,txtPass.Text);
+
+                    Session["usuario"] = aux;
+                    Response.Redirect("zonaUsuario.aspx");
                 }
                 else
                 {

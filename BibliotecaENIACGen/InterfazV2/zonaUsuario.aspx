@@ -10,6 +10,10 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
  
     <asp:Panel ID="PanelUsuario"  runat="server">
+        <div align="right"> 
+            <asp:Label ID="labelUsuario" runat="server" Text=""></asp:Label> 
+            <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
+        </div>
         <div>
         </br>
                  <asp:Button ID="hacerreserva"  

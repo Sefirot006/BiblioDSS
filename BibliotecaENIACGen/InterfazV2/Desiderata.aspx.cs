@@ -21,8 +21,18 @@ namespace InterfazV2
         {
             if (txtAutor.Text != "" && txtTitulo.Text != "")
             {
+                UsuarioEN usuario = (UsuarioEN)Session["usuario"];
                 DesiderataCEN desiderata = new DesiderataCEN();
-                
+                string editorial = txtEditorial.Text;
+                string anyo = txtAno.Text;
+                if (editorial == "")
+                    editorial = "Sin especificar";
+                if (anyo == "")
+                    anyo = "1900";
+                if (usuario.Tipousuario == 1)
+                    desiderata.New_(txtAutor.Text, txtTitulo.Text, editorial, Convert.ToInt16(anyo), usuario.DNI, false);
+                else if (usuario.Tipousuario == 2)
+                    desiderata.New_(txtAutor.Text, txtTitulo.Text, editorial, Convert.ToInt16(anyo), usuario.DNI, false);
             }
             else
             {
