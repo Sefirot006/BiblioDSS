@@ -13,6 +13,7 @@
     <RootNamespace>InterfazV2</RootNamespace>
     <AssemblyName>InterfazV2</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +59,7 @@
     <Content Include="Desiderata.aspx" />
     <Content Include="formLogin.aspx" />
     <Content Include="formRegistro.aspx" />
+    <Content Include="misDatos.aspx" />
     <Content Include="miZona.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -143,6 +145,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="misDatos.aspx.cs">
+      <DependentUpon>misDatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="misDatos.aspx.designer.cs">
+      <DependentUpon>misDatos.aspx</DependentUpon>
     </Compile>
     <Compile Include="miZona.aspx.cs">
       <DependentUpon>miZona.aspx</DependentUpon>

@@ -5,6 +5,10 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <asp:Panel ID="Panel1"  runat="server">
+        <div align="right"> 
+            <asp:Label ID="labelUsuario" runat="server" Text=""></asp:Label> 
+            <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
+        </div>
         <div id = "general" align="center">
 
         <div id = "contenido_login">

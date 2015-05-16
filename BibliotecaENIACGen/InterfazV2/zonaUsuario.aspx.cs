@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC;
+using BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC;
+using BibliotecaENIACGenNHibernate.CEN.BibliotecaENIAC;
 
 namespace InterfazV2
 {
@@ -11,17 +14,26 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["usuario"] != null)
+            UsuarioEN aux = (UsuarioEN)Session["usuario"];
+            if (aux == null)
+                Response.Redirect("formLogin.aspx");
+            if (aux != null)
             {
-                labelUsuario.Text = "Bienvenido:  " + Session["usuario"].ToString();
-                linkSalir.Text = "Salir";
-                labelUsuario.Visible = true;
-                linkSalir.Visible = true;
+                if (aux.Tipousuario == 1)
+                {
+                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
+                }
+                else if (aux.Tipousuario == 2)
+                    Response.Redirect("zonaPAS.aspx");
+                else
+                    Response.Redirect("zonaDirector.aspx");
             }
             else
             {
                 linkSalir.Text = "Iniciar sesión";
-                //Response.Redirect("formLogin.aspx");
             }
         }
         protected void mostrarReservas(object sender, EventArgs e)
@@ -40,7 +52,7 @@ namespace InterfazV2
 
         protected void misDatos(object sender, EventArgs e)
         {
-
+            Response.Redirect("misDatos.aspx");
         }
 
         protected void hacerDesideratas(object sender, EventArgs e)
@@ -50,9 +62,27 @@ namespace InterfazV2
 
         protected void linkSalir_Click(object sender, EventArgs e)
         {
-            Session.Remove("usuario");
-            labelUsuario.Visible = false;
-            Response.Redirect("Default.aspx");
+            if (linkSalir.Text == "Salir")
+            {
+                Session.Remove("usuario");
+                labelUsuario.Visible = false;
+                Response.Redirect("Default.aspx");
+            }
+            else
+            {
+                UsuarioEN aux = (UsuarioEN)Session["usuario"];
+                if (aux != null)
+                {
+                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
+                }
+                else
+                {
+                    Response.Redirect("formLogin.aspx");
+                }
+            }
         }
     }
 }

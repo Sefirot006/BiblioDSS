@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/Site.master"  CodeBehind="zonaUsuario.aspx.cs" Inherits="InterfazV2.zonaUsuario" %>
 
-
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent" >
 
 

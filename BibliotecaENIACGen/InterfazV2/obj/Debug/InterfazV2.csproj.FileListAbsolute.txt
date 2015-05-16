@@ -148,3 +148,15 @@ D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNH
 D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.csprojResolveAssemblyReference.cache
 D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
 D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
