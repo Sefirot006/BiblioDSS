@@ -32,7 +32,7 @@ public IPrestamoCAD get_IPrestamoCAD ()
         return this._IPrestamoCAD;
 }
 
-public string New_ (string p_idPrestamo, Nullable<DateTime> p_fechaVencimiento, Nullable<DateTime> p_fechaInicio, int p_ejemplar)
+public string New_ (string p_idPrestamo, Nullable<DateTime> p_fechaVencimiento, Nullable<DateTime> p_fechaInicio, int p_ejemplar,UsuarioEN user)
 {
         PrestamoEN prestamoEN = null;
         string oid;
@@ -42,7 +42,7 @@ public string New_ (string p_idPrestamo, Nullable<DateTime> p_fechaVencimiento, 
         prestamoEN.IdPrestamo = p_idPrestamo;
 
         prestamoEN.FechaVencimiento = p_fechaVencimiento;
-
+        prestamoEN.Usuario = user;
         prestamoEN.FechaInicio = p_fechaInicio;
 
 

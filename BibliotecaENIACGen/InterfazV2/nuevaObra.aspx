@@ -90,39 +90,33 @@
         <div id="Div1">
             <br>
         </br>
-            <br>
-        </br>
+          
            <asp:Label ID="titol"  runat="server" Text="Título:&nbsp&nbsp&nbsp&nbsp&nbsp "></asp:Label>
            <asp:TextBox ID="titolInput"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
             <br>
         </br>
-            <br>
-        </br>
+            
            <asp:Label ID="isbn"  runat="server" Text="ISBN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "></asp:Label>
            <asp:TextBox ID="isbnInput"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
             <br>
         </br>
-            <br>
-        </br>  
+            
            <asp:Label ID="paginas"  runat="server" Text="Páginas:&nbsp&nbsp "></asp:Label>
            <asp:TextBox ID="paginasInput"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
             <br>
         </br>
-            <br>
-        </br>   
+               
            <asp:Label ID="anyo"  runat="server" Text="Año:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "></asp:Label>
            <asp:TextBox ID="anyoInput"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
             <br>
         </br>
-            <br>
-        </br>   
+               
            <asp:Label ID="img"  runat="server" Text="Ruta Img: "></asp:Label>
            <asp:TextBox ID="imgInput"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>  
             <br>  
         </br>
-            <br>
-        </br>
-            <asp:Label ID="autores"  runat="server" Text="Autor: ">
+            
+            <asp:Label ID="autores"  runat="server" Text="Autor:&nbsp&nbsp&nbsp&nbsp&nbsp ">
             
             </asp:Label>
 

@@ -68,5 +68,6 @@ public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.Bibliote
 {
         return _IAutorCAD.BuscarAutor (autor);
 }
+
 }
 }

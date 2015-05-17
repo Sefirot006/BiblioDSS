@@ -16,13 +16,17 @@ public partial class PASCEN
 {
 public BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN DarDeAltaObra (string id, string p_nombre, short p_paginas, short p_anyo, string imagen, string pAS)
 {
-        /*PROTECTED REGION ID(BibliotecaENIACGenNHibernate.CEN.BibliotecaENIAC_PAS_darDeAltaObra) ENABLED START*/
+    System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN> reserva = null;
+    System.Collections.Generic.IList<String> escrita = null;
+    System.Collections.Generic.IList<String> tematica = null;
+    System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.EjemplarEN> ejemplar = null;
+    ObraCEN obra = new ObraCEN();
+    ObraEN o = new ObraEN();
+    obra.New_(id, p_nombre, p_paginas,  escrita, tematica, p_anyo, imagen);
+   
+    return o;
 
-        // Write here your custom code...
 
-        throw new NotImplementedException ("Method DarDeAltaObra() not yet implemented.");
-
-        /*PROTECTED REGION END*/
 }
 }
 }

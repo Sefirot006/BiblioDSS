@@ -124,6 +124,11 @@ namespace BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC
 
                 obraEN.Imagen = obra.Imagen;
 
+                //obraEN.Escrita = obra.Escrita;
+
+                //obraEN.Tematica = obra.Tematica;
+
+                //Console.WriteLine(obraEN);
                 session.Update(obraEN);
                 SessionCommit();
             }
@@ -148,6 +153,9 @@ namespace BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC
             {
                 SessionInitializeTransaction();
                 ObraEN obraEN = (ObraEN)session.Load(typeof(ObraEN), Isbn);
+                obraEN.Escrita = null;
+                obraEN.Tematica = null;
+                Console.WriteLine(obraEN);
                 session.Delete(obraEN);
                 SessionCommit();
             }
@@ -207,6 +215,12 @@ namespace BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC
                 SessionInitializeTransaction();
                 obraEN = (ObraEN)session.Get(typeof(ObraEN), Isbn);
                 SessionCommit();
+                if (obraEN != null)
+                {
+                    Console.WriteLine(obraEN.Tematica.Count);
+                    Console.WriteLine(obraEN.Escrita.Count);
+                }
+                
             }
 
             catch (Exception ex)

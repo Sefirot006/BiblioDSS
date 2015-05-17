@@ -10,6 +10,7 @@
  
     <asp:Panel ID="PanelPAS"  runat="server">
         <div>
+          <br>
         </br>
                  <asp:Button ID="asignarprestamo"  
                     runat="server"

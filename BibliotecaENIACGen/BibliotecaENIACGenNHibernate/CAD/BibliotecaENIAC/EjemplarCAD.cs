@@ -31,6 +31,10 @@ public EjemplarEN ReadOIDDefault (int id)
         {
                 SessionInitializeTransaction ();
                 ejemplarEN = (EjemplarEN)session.Get (typeof(EjemplarEN), id);
+
+                
+                    Console.WriteLine(ejemplarEN.Obra);
+              
                 SessionCommit ();
         }
 
@@ -90,7 +94,7 @@ public void Modify (EjemplarEN ejemplar)
                 EjemplarEN ejemplarEN = (EjemplarEN)session.Load (typeof(EjemplarEN), ejemplar.Id);
 
                 ejemplarEN.Prestado = ejemplar.Prestado;
-
+                
 
                 ejemplarEN.Reservado = ejemplar.Reservado;
 

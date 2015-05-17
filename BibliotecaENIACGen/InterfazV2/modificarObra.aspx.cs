@@ -53,11 +53,11 @@ namespace InterfazV2
         }
         protected void asignarPrestamo(object sender, EventArgs e)
         {
-
+            Response.Redirect("asignarPrestamo.aspx");
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
-
+            Response.Redirect("desideratas.aspx");
         }
         protected void nuevaObra(object sender, EventArgs e)
         {

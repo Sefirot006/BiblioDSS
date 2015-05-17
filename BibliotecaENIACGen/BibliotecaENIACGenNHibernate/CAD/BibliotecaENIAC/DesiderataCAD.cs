@@ -176,33 +176,42 @@ public System.Collections.Generic.IList<DesiderataEN> ListaDesideratas (int firs
 
 public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> ListaDesideratasPendientes (bool aceptada)
 {
-        System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> result;
-        try
+    System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN> result;
+    int i = 0;
+    try
+    {
+        SessionInitializeTransaction();
+        String sql = @"FROM DesiderataEN where aceptada =" + aceptada + "";
+        //String sql = @"SELECT * FROM ObraEN";// p WHERE p.autor = autor";
+        IQuery query = session.CreateQuery(sql);
+        //IQuery oquery = (IQuery)session.GetNamedQuery("ObraENbuscaPorAutorHQL");
+        //query.SetParameter("autor", autor);
+
+        result = query.List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN>();
+        SessionCommit();
+        Console.WriteLine(result);
+        for (i = 0; i < result.Count; i++)
         {
-                SessionInitializeTransaction ();
-                //String sql = @"FROM DesiderataEN self where FROM DesiderataEN";
-                //IQuery query = session.CreateQuery(sql);
-                IQuery query = (IQuery)session.GetNamedQuery ("DesiderataENlistaDesideratasPendientesHQL");
-                query.SetParameter ("aceptada", aceptada);
-
-                result = query.List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN>();
-                SessionCommit ();
-        }
-
-        catch (Exception ex) {
-                SessionRollBack ();
-                if (ex is BibliotecaENIACGenNHibernate.Exceptions.ModelException)
-                        throw ex;
-                throw new BibliotecaENIACGenNHibernate.Exceptions.DataLayerException ("Error in DesiderataCAD.", ex);
         }
 
 
-        finally
-        {
-                SessionClose ();
-        }
+    }
 
-        return result;
+    catch (Exception ex)
+    {
+        SessionRollBack();
+        if (ex is BibliotecaENIACGenNHibernate.Exceptions.ModelException)
+            throw ex;
+        throw new BibliotecaENIACGenNHibernate.Exceptions.DataLayerException("Error in ObraCAD.", ex);
+    }
+
+
+    finally
+    {
+        SessionClose();
+    }
+
+    return result;
 }
 }
 }

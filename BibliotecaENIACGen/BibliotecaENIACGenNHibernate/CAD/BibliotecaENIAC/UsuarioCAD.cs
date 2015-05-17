@@ -31,6 +31,7 @@ public UsuarioEN ReadOIDDefault (string DNI)
         {
                 SessionInitializeTransaction ();
                 usuarioEN = (UsuarioEN)session.Get (typeof(UsuarioEN), DNI);
+                
                 SessionCommit ();
         }
 
@@ -156,6 +157,11 @@ public UsuarioEN DameporOID (string DNI)
         {
                 SessionInitializeTransaction ();
                 usuarioEN = (UsuarioEN)session.Get (typeof(UsuarioEN), DNI);
+                for (int i = 0; i < usuarioEN.Reserva.Count; i++)
+                {
+                    Console.WriteLine(usuarioEN.Reserva[i].Obra);
+                }
+                    
                 SessionCommit ();
         }
 

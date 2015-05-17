@@ -83,6 +83,7 @@ public void Modify (AutorEN autor)
         {
                 SessionInitializeTransaction ();
                 AutorEN autorEN = (AutorEN)session.Load (typeof(AutorEN), autor.Nombre);
+                autorEN.Escribe = autor.Escribe;
                 session.Update (autorEN);
                 SessionCommit ();
         }
@@ -126,33 +127,95 @@ public void Destroy (string nombre)
 
 public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> BuscarAutor (System.Collections.Generic.IList<string> autor)
 {
-        System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> result;
-        try
+    System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> result;
+    int i = 0;
+    try
+    {
+        SessionInitializeTransaction();
+
+        String sql = @"FROM AutorEN ";
+        for (i = 0; i < autor.Count; i++)
         {
-                SessionInitializeTransaction ();
-                //String sql = @"FROM AutorEN self where FROM AutorEN";
-                //IQuery query = session.CreateQuery(sql);
-                IQuery query = (IQuery)session.GetNamedQuery ("AutorENbuscarAutorHQL");
-                query.SetParameter ("autor", autor);
-
-                result = query.List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN>();
-                SessionCommit ();
+            if (i == 0)
+            {
+                sql += "where nombre ='" + autor[i] + "'";
+            }
+            else
+            {
+                sql += "or nombre ='" + autor[i] + "'";
+            }
         }
+        //String sql = @"SELECT * FROM ObraEN";// p WHERE p.autor = autor";
+        IQuery query = session.CreateQuery(sql);
+        //IQuery oquery = (IQuery)session.GetNamedQuery("ObraENbuscaPorAutorHQL");
+        //query.SetParameter("autor", autor);
 
-        catch (Exception ex) {
-                SessionRollBack ();
-                if (ex is BibliotecaENIACGenNHibernate.Exceptions.ModelException)
-                        throw ex;
-                throw new BibliotecaENIACGenNHibernate.Exceptions.DataLayerException ("Error in AutorCAD.", ex);
-        }
-
-
-        finally
+        result = query.List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN>();
+        SessionCommit();
+        Console.WriteLine(result);
+        for (i = 0; i < result.Count; i++)
         {
-                SessionClose ();
+            Console.WriteLine(result[i].Escribe.Count);
+            
         }
 
-        return result;
+
+    }
+
+    catch (Exception ex)
+    {
+        SessionRollBack();
+        if (ex is BibliotecaENIACGenNHibernate.Exceptions.ModelException)
+            throw ex;
+        throw new BibliotecaENIACGenNHibernate.Exceptions.DataLayerException("Error in ObraCAD.", ex);
+    }
+
+
+    finally
+    {
+        SessionClose();
+    }
+
+    return result;
 }
+public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> BuscarAutor()
+{
+    int i= 0;
+    System.Collections.Generic.IList < BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN > salida =  null;
+    try
+    {
+        SessionInitializeTransaction();
+        String sql = @"FROM AutorEN";
+        //String sql = @"SELECT * FROM ObraEN";// p WHERE p.autor = autor";
+        IQuery query = session.CreateQuery(sql);
+        //IQuery oquery = (IQuery)session.GetNamedQuery("ObraENbuscaPorAutorHQL");
+        //query.SetParameter("autor", autor);
+        
+        salida = query.List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN>();
+        for (i = 0; i < salida.Count;i++ )
+        {
+            Console.WriteLine(salida[i]);
+        }
+            SessionCommit();
+
+    }
+
+    catch (Exception ex)
+    {
+        SessionRollBack();
+        if (ex is BibliotecaENIACGenNHibernate.Exceptions.ModelException)
+            throw ex;
+        throw new BibliotecaENIACGenNHibernate.Exceptions.DataLayerException("Error in AutorCAD.", ex);
+    }
+
+
+    finally
+    {
+        SessionClose();
+    }
+
+    return salida;
+}
+
 }
 }

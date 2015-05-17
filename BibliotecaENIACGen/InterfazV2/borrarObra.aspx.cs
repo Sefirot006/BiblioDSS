@@ -20,11 +20,11 @@ namespace InterfazV2
         }
         protected void asignarPrestamo(object sender, EventArgs e)
         {
-
+            Response.Redirect("asignarPrestamo.aspx");
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
-
+            Response.Redirect("desideratas.aspx");
         }
         protected void nuevaObra(object sender, EventArgs e)
         {
@@ -40,12 +40,9 @@ namespace InterfazV2
         }
         protected void BorrarObraPorIsbn(object sender, EventArgs e)
         {
-            ObraCEN obra = new ObraCEN();
-            ObraEN obraEN = obra.BuscaPorId(busquedaInput.Text);
-            if (obraEN != null)
-            {
-                obra.Destroy(busquedaInput.Text);
-            }
+
+            PASCEN pas = new PASCEN();
+            pas.BorrarObra(busquedaInput.Text);
         }
 
         protected void buscarObraIsbn(object sender, EventArgs e)

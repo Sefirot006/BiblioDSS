@@ -16,13 +16,15 @@ public partial class PASCEN
 {
 public void AceptarDesiderata (string p_oid)
 {
-        /*PROTECTED REGION ID(BibliotecaENIACGenNHibernate.CEN.BibliotecaENIAC_PAS_aceptarDesiderata) ENABLED START*/
+    DesiderataCEN desiCEN = new DesiderataCEN();
+    DesiderataEN desiEN = new DesiderataEN();
+    DesiderataCAD desiCAD = new DesiderataCAD();
 
-        // Write here your custom code...
 
-        throw new NotImplementedException ("Method AceptarDesiderata() not yet implemented.");
+    desiEN = desiCAD.ReadOIDDefault(Convert.ToInt32(p_oid));
+    desiCEN.Modify(desiEN.Id,desiEN.Autor,desiEN.Titulo,desiEN.Editorial,desiEN.Año,true);
+    
 
-        /*PROTECTED REGION END*/
 }
 }
 }

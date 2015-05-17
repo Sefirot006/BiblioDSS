@@ -83,17 +83,19 @@ public string New_ (string p_Isbn, string p_nombre, short p_paginas, System.Coll
         return oid;
 }
 
-public void Modify (string p_Obra_OID, string p_nombre, short p_paginas, short p_anyo, string p_imagen)
+public void Modify(string p_Isbn, string p_nombre, short p_paginas,/* System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> p_escrita, System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.TematicaEN> p_tematica,*/ short p_anyo, string p_imagen)
 {
         ObraEN obraEN = null;
-
+        int i = 0;
         //Initialized ObraEN
         obraEN = new ObraEN ();
-        obraEN.Isbn = p_Obra_OID;
+        obraEN.Isbn = p_Isbn;
         obraEN.Nombre = p_nombre;
         obraEN.Paginas = p_paginas;
         obraEN.Anyo = p_anyo;
         obraEN.Imagen = p_imagen;
+        
+        
         //Call to ObraCAD
 
         _IObraCAD.Modify (obraEN);
@@ -116,6 +118,7 @@ public ObraEN BuscaPorId (string Isbn)
         ObraEN obraEN = null;
 
         obraEN = _IObraCAD.BuscaPorId (Isbn);
+        
         return obraEN;
 }
 
