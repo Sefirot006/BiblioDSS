@@ -1,0 +1,152 @@
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojResolveAssemblyReference.cache
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+C:\Users\titan\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Documents and Settings\ooh4riaUser\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojResolveAssemblyReference.cache
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+D:\Repositorios\master\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojResolveAssemblyReference.cache
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+C:\Users\titan\Desktop\OOH\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojResolveAssemblyReference.cache
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+D:\Repositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+E:\MISrepositorios\BiblioDSS\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.exe
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\InitializeDB.pdb
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\log4net.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\NHibernate.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.core.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\nunit.framework.dll
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+C:\Users\Aldrin\Desktop\BibliotecaENIACGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb

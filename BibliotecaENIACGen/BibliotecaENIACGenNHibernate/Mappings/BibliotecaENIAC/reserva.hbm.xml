@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="BibliotecaENIACGenNHibernate"
+		                   namespace="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC">
+			<class name="ReservaEN" table="[Reserva]">
+						<id name="IdReserva" column="[idReservaReserva]"/>
+					<property name="FechaVencimiento" type="date"> 
+						<column name="[fechaVencimiento]"  not-null="true"/>
+					</property>
+					<property name="FechaInicio" type="date"> 
+						<column name="[fechaInicio]"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<bag name="Obra" table="[obra_reserva]" inverse="true" >
+							<key>
+									<column name="[FK_idReservaReserva_idReserva]"/>
+							</key>
+      						<many-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN">
+									<column name="[FK_IsbnObra_idObra]"/>
+      						</many-to-many>
+    					</bag>
+			
+			
+			
+		  			
+						<many-to-one name="Usuario" class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.UsuarioEN" >	
+								<column name="[FK_DNIUsuario_idUsuario]"/>
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+		
+		  </class>
+		  
+		  <query name="ReservaENReadAllHQL">from ReservaEN</query>
+		</hibernate-mapping>
+	

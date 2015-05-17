@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="BibliotecaENIACGenNHibernate"
+		                   namespace="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC">
+				
+<joined-subclass name="DirectorEN" extends="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.UsuarioEN" table="[Director]">
+	<key>
+    		<column name="[DNIUsuario]"/>
+   	</key>
+
+			
+		  			
+						<bag name="PAS" >
+							<key>
+								<column name="[FK_DNIUsuario_idDirector]"/>
+					      	</key>
+							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PASEN"/>
+					    </bag>
+					
+					
+		
+		  </joined-subclass>	
+		  
+		  <query name="DirectorENReadAllHQL">from DirectorEN</query>
+		</hibernate-mapping>
+	

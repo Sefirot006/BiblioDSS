@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="BibliotecaENIACGenNHibernate"
+		                   namespace="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC">
+			<class name="EjemplarEN" table="[Ejemplar]">
+				  	
+						<id name="Id" column="[idEjemplar]" type="integer">
+							<generator class="identity"/>
+						</id>
+					<property name="Prestado" type="boolean"> 
+						<column name="[prestado]"  not-null="true"/>
+					</property>
+					<property name="Reservado" type="boolean"> 
+						<column name="[reservado]"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<many-to-one name="Obra" class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN" >	
+								<column name="[FK_IsbnObra_idObra]"/>
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="Prestamo" >
+							<key>
+								<column name="[FK_idEjemplar_idEjemplar]"/>
+					      	</key>
+							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN"/>
+					    </bag>
+					
+					
+					
+					
+					
+					
+		
+		  </class>
+		  
+		  <query name="EjemplarENReadAllHQL">from EjemplarEN</query>
+		</hibernate-mapping>
+	

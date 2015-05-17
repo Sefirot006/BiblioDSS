@@ -1,0 +1,2438 @@
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+20   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+20   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+20   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+20   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: E:/OOH4RIA_Chile/workspace/BibliotecaENIAC/templates/workflow/generator.mwe
+20   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+4577 [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'E:\OOH4RIA_Chile\workspace'
+44785 [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+46026 [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+47619 [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in E:/OOH4RIA_Chile/workspace/BibliotecaENIAC/templates/workflow/generator.mwe:10
+47619 [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+49782 [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+55300 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA7058997002417763351.cfg
+enc:utf-8
+56672 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+71082 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 14.41s
+71082 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 80
+71082 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 15
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+84261 [main] INFO         org.eclipse.xpand2.Generator  - Written 3 files to outlet [default](../BibliotecaENIACGen)
+84261 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 65 files to outlet [default](../BibliotecaENIACGen)
+84261 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+84391 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+84732 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+86344 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 38735ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/1/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+760  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\1'
+848  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+969  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+1123 [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/1/BibliotecaENIAC/templates/workflow/generator.mwe:10
+1123 [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+1432 [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+2027 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA4991297226528142384.cfg
+enc:utf-8
+2269 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+2412 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.143s
+2412 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 80
+2412 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 15
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3360 [main] INFO         org.eclipse.xpand2.Generator  - Written 7 files to outlet [default](../BibliotecaENIACGen)
+3360 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 61 files to outlet [default](../BibliotecaENIACGen)
+3360 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3382 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3393 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3393 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2270ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+430  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+481  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+551  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+671  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+671  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+851  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1202 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA4597335099437859983.cfg
+enc:utf-8
+1412 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+2233 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.821s
+2233 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 177
+2233 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 15
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3785 [main] INFO         org.eclipse.xpand2.Generator  - Written 62 files to outlet [default](../BibliotecaENIACGen)
+3785 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 32 files to outlet [default](../BibliotecaENIACGen)
+3785 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3805 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3815 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3815 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3144ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+341  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+391  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+451  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+541  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+541  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+721  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1072 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA8767258555667366907.cfg
+enc:utf-8
+1382 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.581s
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 203
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 26
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3545 [main] INFO         org.eclipse.xpand2.Generator  - Written 9 files to outlet [default](../BibliotecaENIACGen)
+3545 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 85 files to outlet [default](../BibliotecaENIACGen)
+3545 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3565 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3575 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3575 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3034ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+361  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+501  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+561  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+651  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+651  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+832  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1182 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA180825280020261655.cfg
+enc:utf-8
+1362 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1913 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.551s
+1913 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 203
+1913 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 26
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3355 [main] INFO         org.eclipse.xpand2.Generator  - Written 21 files to outlet [default](../BibliotecaENIACGen)
+3355 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 72 files to outlet [default](../BibliotecaENIACGen)
+3355 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3375 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3385 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3385 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2734ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+310  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+410  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+470  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+550  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+550  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+721  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1061 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA6982355592973149342.cfg
+enc:utf-8
+1221 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1782 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.561s
+1782 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 203
+1782 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 26
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3164 [main] INFO         org.eclipse.xpand2.Generator  - Written 2 files to outlet [default](../BibliotecaENIACGen)
+3164 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 91 files to outlet [default](../BibliotecaENIACGen)
+3164 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3184 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3194 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3194 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2644ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+301  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+501  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+551  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+651  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+651  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+841  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1192 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA8241370194280329346.cfg
+enc:utf-8
+1352 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1903 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.551s
+1903 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 203
+1903 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 26
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3275 [main] INFO         org.eclipse.xpand2.Generator  - Written 6 files to outlet [default](../BibliotecaENIACGen)
+3275 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 87 files to outlet [default](../BibliotecaENIACGen)
+3275 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3285 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3295 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3295 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2644ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+290  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+361  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+411  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+491  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+491  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+681  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1022 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA4905618347657689251.cfg
+enc:utf-8
+1232 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1913 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.681s
+1913 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 203
+1913 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 26
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3705 [main] INFO         org.eclipse.xpand2.Generator  - Written 21 files to outlet [default](../BibliotecaENIACGen)
+3705 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 74 files to outlet [default](../BibliotecaENIACGen)
+3705 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3735 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3755 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3755 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3264ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+290  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+340  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+400  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+480  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+480  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+661  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+991  [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA1374270707723982345.cfg
+enc:utf-8
+1232 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1892 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.66s
+1892 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 205
+1892 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3365 [main] INFO         org.eclipse.xpand2.Generator  - Written 4 files to outlet [default](../BibliotecaENIACGen)
+3365 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 91 files to outlet [default](../BibliotecaENIACGen)
+3365 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3385 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3395 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3395 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2915ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+300  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+340  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+400  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+481  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+481  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+661  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1021 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA1092018829842745235.cfg
+enc:utf-8
+1232 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1893 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.661s
+1893 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 202
+1893 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3275 [main] INFO         org.eclipse.xpand2.Generator  - Written 3 files to outlet [default](../BibliotecaENIACGen)
+3275 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 92 files to outlet [default](../BibliotecaENIACGen)
+3275 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3285 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3305 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3305 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2824ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+310  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+360  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+410  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+500  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+500  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+671  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1021 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA2987921698044919619.cfg
+enc:utf-8
+1262 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1953 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.691s
+1953 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 206
+1953 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3465 [main] INFO         org.eclipse.xpand2.Generator  - Written 6 files to outlet [default](../BibliotecaENIACGen)
+3465 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 89 files to outlet [default](../BibliotecaENIACGen)
+3465 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3475 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3495 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3495 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3005ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+320  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+360  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+420  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+511  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+511  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+681  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1031 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA2629595543110098792.cfg
+enc:utf-8
+1232 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1873 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.641s
+1873 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 206
+1873 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3255 [main] INFO         org.eclipse.xpand2.Generator  - Written 2 files to outlet [default](../BibliotecaENIACGen)
+3255 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 93 files to outlet [default](../BibliotecaENIACGen)
+3255 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3265 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3285 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3285 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2784ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+290  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+340  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+400  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+480  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+480  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+661  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1011 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA4263642767212032855.cfg
+enc:utf-8
+1332 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.631s
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 206
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3505 [main] INFO         org.eclipse.xpand2.Generator  - Written 4 files to outlet [default](../BibliotecaENIACGen)
+3505 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 91 files to outlet [default](../BibliotecaENIACGen)
+3505 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3525 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3535 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3545 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3065ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+290  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+341  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+401  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+481  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+481  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+661  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+991  [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA4145405209151800609.cfg
+enc:utf-8
+1182 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1853 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.671s
+1853 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 207
+1853 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3235 [main] INFO         org.eclipse.xpand2.Generator  - Written 2 files to outlet [default](../BibliotecaENIACGen)
+3235 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 93 files to outlet [default](../BibliotecaENIACGen)
+3235 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3245 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3265 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3265 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2784ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+340  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+401  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+461  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+551  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+551  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+781  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1172 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA2153767163899342215.cfg
+enc:utf-8
+1442 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+2093 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.651s
+2093 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 207
+2093 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3876 [main] INFO         org.eclipse.xpand2.Generator  - Written 13 files to outlet [default](../BibliotecaENIACGen)
+3876 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 82 files to outlet [default](../BibliotecaENIACGen)
+3876 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3896 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3916 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3916 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3365ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+340  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+460  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+520  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+611  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+611  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+811  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1211 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA7057418631006234929.cfg
+enc:utf-8
+1382 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1972 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.59s
+1972 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 207
+1972 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3445 [main] INFO         org.eclipse.xpand2.Generator  - Written 4 files to outlet [default](../BibliotecaENIACGen)
+3445 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 91 files to outlet [default](../BibliotecaENIACGen)
+3445 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3465 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3475 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3485 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2874ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+300  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+350  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+420  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+501  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+501  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+691  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1031 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA8919007326909202512.cfg
+enc:utf-8
+1252 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1953 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.701s
+1953 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 208
+1953 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 28
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3555 [main] INFO         org.eclipse.xpand2.Generator  - Written 24 files to outlet [default](../BibliotecaENIACGen)
+3555 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 72 files to outlet [default](../BibliotecaENIACGen)
+3555 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3565 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3585 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3585 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3084ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+340  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+480  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+551  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+641  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+641  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+831  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1191 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA2890426738168358891.cfg
+enc:utf-8
+1522 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+2223 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.701s
+2223 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 212
+2223 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 32
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3815 [main] INFO         org.eclipse.xpand2.Generator  - Written 36 files to outlet [default](../BibliotecaENIACGen)
+3815 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 61 files to outlet [default](../BibliotecaENIACGen)
+3815 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3825 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3835 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3835 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3204ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+10   [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+330  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+460  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+520  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+610  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+610  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+801  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1151 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA3027049406546075935.cfg
+enc:utf-8
+1322 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+2223 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.901s
+2223 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 219
+2223 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 39
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3865 [main] INFO         org.eclipse.xpand2.Generator  - Written 29 files to outlet [default](../BibliotecaENIACGen)
+3865 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 68 files to outlet [default](../BibliotecaENIACGen)
+3865 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3885 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3895 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3895 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3285ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+311  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+351  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+411  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+501  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+501  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+691  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1032 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA2640385735258572207.cfg
+enc:utf-8
+1302 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.661s
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 219
+1963 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 39
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3655 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 97 files to outlet [default](../BibliotecaENIACGen)
+3655 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3665 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3675 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3685 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3184ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+310  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+350  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+420  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+500  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+500  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+691  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1051 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA6785435159693053543.cfg
+enc:utf-8
+1301 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1922 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.621s
+1922 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 219
+1922 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 39
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3625 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 97 files to outlet [default](../BibliotecaENIACGen)
+3625 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3645 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3655 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3655 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3155ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201206110920
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+311  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'C:\Documents and Settings\ooh4riaUser\Desktop\ProyectosDSS\DSS-Hito2\BiblioDSS.git'
+361  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+421  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+501  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in C:/Documents and Settings/ooh4riaUser/Desktop/ProyectosDSS/DSS-Hito2/BiblioDSS.git/BibliotecaENIAC/templates/workflow/generator.mwe:10
+501  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+691  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+1042 [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8), ../BibliotecaENIACGen]
+configuroConf:C:\DOCUME~1\OOH4RI~1\LOCALS~1\Temp\OOH4RIA8314455350630636311.cfg
+enc:utf-8
+1272 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1943 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.671s
+1943 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 219
+1943 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 39
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3425 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 97 files to outlet [default](../BibliotecaENIACGen)
+3425 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3435 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3445 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3455 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 2954ms!
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - EMF Modeling Workflow Engine 1.2.1, Build v201306110341
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - (c) 2005-2009 openarchitectureware.org and contributors
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - --------------------------------------------------------------------------------------
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - running workflow: D:/Repositorios/master/BibliotecaENIAC/templates/workflow/generator.mwe
+0    [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - 
+234  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Registering platform uri 'D:\Repositorios\master'
+266  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'es.ua.dlsi.ooh.conceptualView.ConceptualViewPackage'
+297  [main] INFO  lipse.emf.mwe.utils.StandaloneSetup  - Adding generated EPackage 'org.eclipse.gmf.runtime.notation.NotationPackage'
+391  [main] INFO  e.core.container.CompositeComponent  - Workflow: executing workflow workflow::nhibernate::generator.mwe in D:/Repositorios/master/BibliotecaENIAC/templates/workflow/generator.mwe:10
+391  [main] INFO  e.core.container.CompositeComponent  - XmiReader: file 'models/default.domainModel' => slot 'es_ua_dlsi_ooh_conceptual_model'
+500  [main] INFO  e.core.container.CompositeComponent  - CheckComponent: slot es_ua_dlsi_ooh_conceptual_model check file(s): metamodel::Checks 
+781  [main] INFO  e.core.container.CompositeComponent  - Generator(nhibernate.generator): generating 'workflow::nhibernate::workflow::main FOR true' => [../BibliotecaENIACGen, CONFIGURATION:../BibliotecaENIACGen(overwrite=false,append=false,fileEncoding=utf-8)]
+configuroConf:C:\Users\Aldrin\AppData\Local\Temp\OOH4RIA2985022570707367532.cfg
+enc:utf-8
+1001 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan started ...
+1548 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Source scan finished in 0.547s
+1548 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Files scanned: 225
+1548 [main] INFO  and2.pr.ProtectedRegionResolverImpl  - Regions found: 39
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+enc:utf-8
+3390 [main] INFO         org.eclipse.xpand2.Generator  - Written 77 files to outlet [default](../BibliotecaENIACGen)
+3390 [main] INFO         org.eclipse.xpand2.Generator  - Skipped writing of 20 files to outlet [default](../BibliotecaENIACGen)
+3390 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CreateSolution
+3406 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.UpdateSolution
+3406 [main] INFO  e.core.container.CompositeComponent  - es.ua.dlsi.ooh.persistence.nhibernate.generator.workflowComponents.CopyDLLs
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Antlr3.Runtime.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Castle.DynamicProxy2.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\Iesi.Collections.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\LinFu.DynamicProxy.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\log4net.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\NHibernate.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.core.dll
+../BibliotecaENIACGen\BibliotecaENIACGenNHibernate\AppLib\nunit.framework.dll
+3406 [main] INFO  eclipse.emf.mwe.core.WorkflowEngine  - workflow completed in 3015ms!
