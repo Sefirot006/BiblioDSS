@@ -1,2 +1,0 @@
-# BiblioDSS
-Proyecto biblioteca DSS
