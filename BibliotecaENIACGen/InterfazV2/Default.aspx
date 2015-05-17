@@ -14,10 +14,16 @@
             <asp:Label ID="Label1"  runat="server" Text="Buscar: "></asp:Label>
             <asp:TextBox ID="textBox"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
             <br />
-            <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
-            <asp:Button ID="Button1"  Width="130px" runat="server" Text="Buscar Por Autor" OnClick="mostrarObrasA_click"/></asp:Button>
-            <asp:Button ID="Button2"  Width="130px" runat="server" Text="Buscar Por Título" OnClick="mostrarObrasN_click"/></asp:Button>
-            <asp:Button ID="Button3"  Width="134px" runat="server" Text="Buscar Por Temática" OnClick="mostrarObrasT_click"/></asp:Button>
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" 
+                OnClick="mostrarObrasA_click" Text="Buscar Por Autor" Width="130px" />
+            &nbsp;<asp:Button ID="Button2" runat="server" OnClick="mostrarObrasN_click" 
+                Text="Buscar Por Título" Width="130px" />
+            &nbsp;<asp:Button ID="Button3" runat="server" OnClick="mostrarObrasT_click" 
+                Text="Buscar Por Temática" Width="134px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </asp:Button>
+            </asp:Button>
+            </asp:Button>
         </div>
     </asp:Panel>
     <asp:Panel ID="Panel2"  runat="server" style="top:300px;">
