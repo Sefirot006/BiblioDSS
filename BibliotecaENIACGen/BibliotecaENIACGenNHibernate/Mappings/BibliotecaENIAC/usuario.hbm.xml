@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="BibliotecaENIACGenNHibernate"
+		                   namespace="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC">
+			<class name="UsuarioEN" table="[Usuario]">
+						<id name="DNI" column="[DNIUsuario]"/>
+					<property name="Nombre" type="string"> 
+						<column name="[nombre]"  not-null="true"/>
+					</property>
+					<property name="Apellidos" type="string"> 
+						<column name="[apellidos]"  not-null="true"/>
+					</property>
+					<property name="Telefono" type="integer"> 
+						<column name="[telefono]"  not-null="true"/>
+					</property>
+					<property name="Correo" type="string"> 
+						<column name="[correo]"  not-null="true"/>
+					</property>
+					<property name="Penalizacion" type="integer"> 
+						<column name="[penalizacion]"  not-null="true"/>
+					</property>
+					<property name="Contrasenya" type="string"> 
+						<column name="[contrasenya]"  not-null="true"/>
+					</property>
+					<property name="Logeado" type="boolean"> 
+						<column name="[logeado]"  not-null="true"/>
+					</property>
+					<property name="Tipousuario" type="integer"> 
+						<column name="[tipousuario]"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+		  			
+						<bag name="Recomienda" table="[usuario_bibliografiaRecomendada]"  >
+							<key>
+									<column name="[FK_DNIUsuario_idUsuario]"/>
+							</key>
+      						<many-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.BibliografiaRecomendadaEN">
+									<column name="[FK_idSocioObrasBibliografiaRecomendada_idBibliografiaRecomendada]"/>
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<bag name="Reserva" >
+							<key>
+								<column name="[FK_DNIUsuario_idUsuario]"/>
+					      	</key>
+							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ReservaEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Prestamo" >
+							<key>
+								<column name="[FK_DNIUsuario_idUsuario]"/>
+					      	</key>
+							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.PrestamoEN"/>
+					    </bag>
+					
+			
+			
+			
+		  			
+						<bag name="Desiderata" >
+							<key>
+								<column name="[FK_DNIUsuario_idUsuario]"/>
+					      	</key>
+							<one-to-many class="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.DesiderataEN"/>
+					    </bag>
+					
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		  </class>
+		  
+		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
+		</hibernate-mapping>
+	
