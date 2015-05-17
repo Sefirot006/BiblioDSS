@@ -12,6 +12,8 @@
         <div id = "general" align="center">
 
         <div id = "contenido_login">
+            <fieldset class="login" >
+                <legend>Información de cuenta</legend>
             <table>
                 <tr>
                     <td align="center" rowspan="1" style="font-size: 18px"> Crear una cuenta nueva </td>
@@ -76,7 +78,7 @@
                     </td>
                 </tr>
             </table>
-        
+         </fieldset>
         </div>
     
     </div>    

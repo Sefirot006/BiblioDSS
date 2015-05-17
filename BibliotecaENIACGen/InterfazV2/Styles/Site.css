@@ -200,7 +200,7 @@ fieldset
 {
     margin: 1em 0px;
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
 }
 
 fieldset p 
@@ -296,7 +296,7 @@ div.accountInfo
 {
     margin-top:100px;
     overflow: hidden;
-    width: auto;
+    width:450px;
     position: relative;
     padding-bottom: 10px;   
 }

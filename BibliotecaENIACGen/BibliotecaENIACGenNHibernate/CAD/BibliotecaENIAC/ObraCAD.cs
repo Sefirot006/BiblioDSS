@@ -9,16 +9,6 @@ using NHibernate.Exceptions;
 using BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC;
 using BibliotecaENIACGenNHibernate.Exceptions;
 
-using System;
-using System.Text;
-using BibliotecaENIACGenNHibernate.CEN.BibliotecaENIAC;
-using NHibernate;
-using NHibernate.Cfg;
-using NHibernate.Criterion;
-using NHibernate.Exceptions;
-using BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC;
-using BibliotecaENIACGenNHibernate.Exceptions;
-
 namespace BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC
 {
     public partial class ObraCAD : BasicCAD, IObraCAD
@@ -148,6 +138,9 @@ namespace BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC
             {
                 SessionInitializeTransaction();
                 ObraEN obraEN = (ObraEN)session.Load(typeof(ObraEN), Isbn);
+                obraEN.Escrita = null;
+                obraEN.Tematica = null;
+                Console.WriteLine(obraEN);
                 session.Delete(obraEN);
                 SessionCommit();
             }
@@ -207,6 +200,12 @@ namespace BibliotecaENIACGenNHibernate.CAD.BibliotecaENIAC
                 SessionInitializeTransaction();
                 obraEN = (ObraEN)session.Get(typeof(ObraEN), Isbn);
                 SessionCommit();
+                if (obraEN != null)
+                {
+                    Console.WriteLine(obraEN.Tematica.Count);
+                    Console.WriteLine(obraEN.Escrita.Count);
+                }
+
             }
 
             catch (Exception ex)

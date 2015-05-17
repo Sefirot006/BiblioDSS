@@ -38,16 +38,17 @@ namespace InterfazV2
         }
         protected void mostrarReservas(object sender, EventArgs e)
         {
+            Response.Redirect("misReservas.aspx");
         }
 
         protected void hacerReservas(object sender, EventArgs e)
         {
-
+            Response.Redirect("misReservas.aspx");
         }
 
         protected void misPrestamos(object sender, EventArgs e)
         {
-
+            Response.Redirect("misPrestamos.aspx");
         }
 
         protected void misDatos(object sender, EventArgs e)

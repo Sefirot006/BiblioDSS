@@ -14,29 +14,11 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            UsuarioEN aux = (UsuarioEN)Session["usuario"];
-            if (aux != null)
-            {
-                if (aux.Tipousuario == 2)
-                {
-                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
-                    linkSalir.Text = "Salir";
-                    labelUsuario.Visible = true;
-                    linkSalir.Visible = true;
-                }
-                else if (aux.Tipousuario == 1)
-                    Response.Redirect("zonaUsuario.aspx");
-                else
-                    Response.Redirect("zonaDirector.aspx");
-            }
-            else
-            {
-                linkSalir.Text = "Iniciar sesión";
-            }
+
         }
         protected void asignarPrestamo(object sender, EventArgs e)
         {
-
+            Response.Redirect("asignarPrestamo.aspx");
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
@@ -44,40 +26,15 @@ namespace InterfazV2
         }
         protected void nuevaObra(object sender, EventArgs e)
         {
-
+            Response.Redirect("nuevaObra.aspx");
         }
         protected void modificarObra(object sender, EventArgs e)
         {
-
+            Response.Redirect("modificarObra.aspx");
         }
         protected void borrarObra(object sender, EventArgs e)
         {
-
-        }
-
-        protected void linkSalir_Click(object sender, EventArgs e)
-        {
-            if (linkSalir.Text == "Salir")
-            {
-                Session.Remove("usuario");
-                labelUsuario.Visible = false;
-                Response.Redirect("Default.aspx");
-            }
-            else
-            {
-                UsuarioEN aux = (UsuarioEN)Session["usuario"];
-                if (aux != null)
-                {
-                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
-                    linkSalir.Text = "Salir";
-                    labelUsuario.Visible = true;
-                    linkSalir.Visible = true;
-                }
-                else
-                {
-                    Response.Redirect("formLogin.aspx");
-                }
-            }
+            Response.Redirect("borrarObra.aspx");
         }
     }
 }

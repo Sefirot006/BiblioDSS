@@ -86,15 +86,11 @@ public void Modify (UsuarioEN usuario)
 
                 usuarioEN.Nombre = usuario.Nombre;
 
-
                 usuarioEN.Apellidos = usuario.Apellidos;
-
 
                 usuarioEN.Telefono = usuario.Telefono;
 
-
                 usuarioEN.Correo = usuario.Correo;
-
 
                 usuarioEN.Penalizacion = usuario.Penalizacion;
 

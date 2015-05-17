@@ -83,20 +83,22 @@ public string New_ (string p_Isbn, string p_nombre, short p_paginas, System.Coll
         return oid;
 }
 
-public void Modify (string p_Obra_OID, string p_nombre, short p_paginas, short p_anyo, string p_imagen)
+public void Modify(string p_Isbn, string p_nombre, short p_paginas, short p_anyo, string p_imagen)
 {
-        ObraEN obraEN = null;
+    ObraEN obraEN = null;
+    int i = 0;
+    //Initialized ObraEN
+    obraEN = new ObraEN();
+    obraEN.Isbn = p_Isbn;
+    obraEN.Nombre = p_nombre;
+    obraEN.Paginas = p_paginas;
+    obraEN.Anyo = p_anyo;
+    obraEN.Imagen = p_imagen;
 
-        //Initialized ObraEN
-        obraEN = new ObraEN ();
-        obraEN.Isbn = p_Obra_OID;
-        obraEN.Nombre = p_nombre;
-        obraEN.Paginas = p_paginas;
-        obraEN.Anyo = p_anyo;
-        obraEN.Imagen = p_imagen;
-        //Call to ObraCAD
 
-        _IObraCAD.Modify (obraEN);
+    //Call to ObraCAD
+
+    _IObraCAD.Modify(obraEN);
 }
 
 public void Destroy (string Isbn)
@@ -104,32 +106,33 @@ public void Destroy (string Isbn)
         _IObraCAD.Destroy (Isbn);
 }
 
-public System.Collections.Generic.IList<ObraEN> ListarObras (int first, int size)
+public System.Collections.Generic.IList<ObraEN> ListarObras(int first, int size)
 {
-        System.Collections.Generic.IList<ObraEN> list = null;
+    System.Collections.Generic.IList<ObraEN> list = null;
 
-        list = _IObraCAD.ListarObras (first, size);
-        return list;
+    list = _IObraCAD.ListarObras(first, size);
+    return list;
 }
-public ObraEN BuscaPorId (string Isbn)
+public ObraEN BuscaPorId(string Isbn)
 {
-        ObraEN obraEN = null;
+    ObraEN obraEN = null;
 
-        obraEN = _IObraCAD.BuscaPorId (Isbn);
-        return obraEN;
+    obraEN = _IObraCAD.BuscaPorId(Isbn);
+
+    return obraEN;
 }
 
-public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorNombre (string nombre)
+public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorNombre(string nombre)
 {
-        return _IObraCAD.BuscaPorNombre (nombre);
+    return _IObraCAD.BuscaPorNombre(nombre);
 }
-public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorAutor (string autor)
+public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorAutor(string autor)
 {
-        return _IObraCAD.BuscaPorAutor (autor);
+    return _IObraCAD.BuscaPorAutor(autor);
 }
-public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorTematica (string tema)
+public System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.ObraEN> BuscaPorTematica(string tema)
 {
-        return _IObraCAD.BuscaPorTematica (tema);
+    return _IObraCAD.BuscaPorTematica(tema);
 }
 }
 }

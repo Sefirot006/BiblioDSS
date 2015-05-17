@@ -60,6 +60,8 @@
     <Content Include="formLogin.aspx" />
     <Content Include="formRegistro.aspx" />
     <Content Include="misDatos.aspx" />
+    <Content Include="misPrestamos.aspx" />
+    <Content Include="misReservas.aspx" />
     <Content Include="miZona.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -152,6 +154,20 @@
     </Compile>
     <Compile Include="misDatos.aspx.designer.cs">
       <DependentUpon>misDatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="misPrestamos.aspx.cs">
+      <DependentUpon>misPrestamos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="misPrestamos.aspx.designer.cs">
+      <DependentUpon>misPrestamos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="misReservas.aspx.cs">
+      <DependentUpon>misReservas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="misReservas.aspx.designer.cs">
+      <DependentUpon>misReservas.aspx</DependentUpon>
     </Compile>
     <Compile Include="miZona.aspx.cs">
       <DependentUpon>miZona.aspx</DependentUpon>
