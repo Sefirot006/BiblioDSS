@@ -15,42 +15,31 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int i = 0;
-
-
-            /*bloque para añadir al desplegable de autores todos los autores*/
-
-           /* if (ListBox1.Items.Count == 0)
+            UsuarioEN usuario = (UsuarioEN)Session["usuario"];
+            if (usuario == null)
             {
-                System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> autores;
-                AutorCAD aut = new AutorCAD();
-                autores = aut.BuscarAutor();
-                for (i = 0; i < autores.Count; i++)
-                {
-                    ListItem l = new ListItem(autores[i].Nombre);
-
-                    ListBox1.Items.Add(l);
-
-                }
-            }*/
-
-            /*bloque para añadir al desplegable de autores todos las tematica*/
-
-           /* if (tematica.Items.Count == 0)
+                Response.Redirect("formLogin.aspx");
+            }
+            else if (usuario != null)
             {
-                System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.TematicaEN> temas;
-                TematicaCAD theme = new TematicaCAD();
-                temas = theme.BuscarTemas();
-                for (i = 0; i < temas.Count; i++)
+                if (usuario.Tipousuario == 2)
                 {
-                    ListItem l = new ListItem(temas[i].Nombre);
-
-                    tematica.Items.Add(l);
-
+                    labelUsuario.Text = "Bienvenido:  " + usuario.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
                 }
-            }*/
-
+                else if (usuario.Tipousuario == 1)
+                    Response.Redirect("zonaUsuario.aspx");
+                else
+                    Response.Redirect("zonaDirector.aspx");
+            }
+            else
+            {
+                linkSalir.Text = "Iniciar sesión";
+            }
         }
+
         protected void asignarPrestamo(object sender, EventArgs e)
         {
             Response.Redirect("asignarPrestamo.aspx");
@@ -87,61 +76,10 @@ namespace InterfazV2
             ObraEN obraEn = new ObraEN();
             obraEn = obra.BuscaPorId(busquedaInput.Text);
 
-            /*foreach (ListItem li in ListBox1.Items)
-            {
-                if (li.Selected)
-                {
-                    AutorEN autor = new AutorEN();
-                    autor.Nombre = li.Text;
-                    autores.Add(autor);
-                    autoresString.Add(li.Text);
-
-                }
-            }
-
-            System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.TematicaEN> temas = null;
-            temas = new List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.TematicaEN>();
-            foreach (ListItem li in tematica.Items)
-            {
-                if (li.Selected)
-                {
-                    TematicaEN theme = new TematicaEN();
-                    theme.Nombre = li.Text;
-                    temas.Add(theme);
-                    //temas.Add(li.Text);
-                }
-            }
-            */
             if (obraEn != null)
             {
                 
-                obra.Modify(id,titulo,pag,year,urlImg);
-
-                /*AutorCEN a = new AutorCEN();
-                System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> aEn = a.BuscarAutor(autoresString);
-                bool loEscribe = false;
-
-                // Autor que no escribe la obra
-                for (int i = 0; i < aEn.Count; i++)
-                {
-                    for(int j = 0; j < aEn[i].Escribe.Count; j++ )
-                    {
-                        if (aEn[i].Escribe[j].Nombre == titolInput.Text)
-                        {
-                            loEscribe = true;
-                        }
-                    }
-
-                    if (loEscribe == false)
-                    {
-                        obraEn.Escrita = autores;
-                        aEn[i].Escribe.Add(obraEn);
-                        a.Modify(aEn[i].Nombre,aEn[i]);
-                    }
-                    loEscribe = false;
-                }*/
-                    
-               
+                obra.Modify(id,titulo,pag,year,urlImg);    
             }
             
         }
@@ -210,74 +148,6 @@ namespace InterfazV2
                     anyoInput.Text = obraEn.Anyo.ToString();
                     PanelPASModDown.Controls.Add(new LiteralControl("<br>"));
 
-
-
-
-                   /* //AUTOR
-                    Label lAut = new Label();
-                    lAut.Text = "Autor:";
-                    PanelPASModDown.Controls.Add(lAut);
-                    PanelPASModDown.Controls.Add(new LiteralControl("&nbsp"));
-                    Label lAutor = new Label();
-                    if (obraEn.Escrita != null)
-                    {
-                        for (i = 0; i < obraEn.Escrita.Count; i++)
-                        {
-                            if (i != obraEn.Escrita.Count - 1)
-                            {
-                                lAutor.Text += obraEn.Escrita[i].Nombre + ",";
-
-                            }
-                            else
-                            {
-                                lAutor.Text += obraEn.Escrita[i].Nombre;
-
-                            }
-                        }
-                    }
-                    else
-                    {
-                        lAutor.Text = "Desconocido";
-                    }
-
-                    PanelPASModDown.Controls.Add(lAutor);
-
-                    PanelPASModDown.Controls.Add(new LiteralControl("<br>"));
-
-                    //TEMATICA
-
-                    Label lTem = new Label();
-                    lTem.Text = "Temática:";
-                    PanelPASModDown.Controls.Add(lTem);
-                    PanelPASModDown.Controls.Add(new LiteralControl("&nbsp"));
-                    Label lTematica = new Label();
-                    if (obraEn.Tematica != null)
-                    {
-
-                        for (i = 0; i < obraEn.Tematica.Count; i++)
-                        {
-                            if (i != obraEn.Tematica.Count - 1)
-                            {
-                                lTematica.Text += obraEn.Tematica[i].Nombre + ",";
-
-                            }
-                            else
-                            {
-                                lTematica.Text += obraEn.Tematica[i].Nombre;
-
-                            }
-                        }
-                    }
-                    else
-                    {
-                        lTematica.Text = "Sin tematica";
-                    }
-
-                    PanelPASModDown.Controls.Add(lTematica);
-                    PanelPASModDown.Controls.Add(new LiteralControl("<br>"));*/
-
-
-
                 }
                 else
                 {
@@ -290,13 +160,34 @@ namespace InterfazV2
             {
                 Label error = new Label();
                 error.Text = "Introduzca algún dato";
-                PanelPASModDown.Controls.Add(error);
-                
-                
-                
+                PanelPASModDown.Controls.Add(error);          
             }
-            
 
+        }
+
+        protected void linkSalir_Click(object sender, EventArgs e)
+        {
+            if (linkSalir.Text == "Salir")
+            {
+                Session.Remove("usuario");
+                labelUsuario.Visible = false;
+                Response.Redirect("Default.aspx");
+            }
+            else
+            {
+                UsuarioEN aux = (UsuarioEN)Session["usuario"];
+                if (aux != null)
+                {
+                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
+                }
+                else
+                {
+                    Response.Redirect("formLogin.aspx");
+                }
+            }
         }
     }
 }

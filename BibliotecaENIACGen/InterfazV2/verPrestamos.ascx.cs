@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace InterfazV2
 {
-    public partial class MiEspacio : System.Web.UI.Page
+    public partial class verPrestamos : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

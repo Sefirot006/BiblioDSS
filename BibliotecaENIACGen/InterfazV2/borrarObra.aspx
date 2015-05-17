@@ -9,79 +9,37 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
  
     <asp:Panel ID="PanelPASMod"  runat="server">
+        <div align="right"> 
+            <asp:Label ID="labelUsuario" runat="server" Text=""></asp:Label> 
+            <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
+        </div>
         <div>
           <br>
+            <br></br>
+            <asp:Button ID="asignarprestamo" runat="server" BackColor="#465C71" 
+                BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
+                OnClick="asignarPrestamo" Style="color: #DDE4EC" Text="Asignar Prestamo" 
+                Width="150px" />
+            </asp:button>
+            <asp:Button ID="altaobra" runat="server" BackColor="#465C71" 
+                BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
+                OnClick="nuevaObra" Style="color: #DDE4EC" Text="Nueva obra" Width="150px" />
+            </asp:button>
+            <asp:Button ID="modificarobra" runat="server" BackColor="#465C71" 
+                BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
+                OnClick="modificaObra" Style="color: #DDE4EC" Text="Modificar Obra" 
+                Width="150px" />
+            </asp:button>
+            <asp:Button ID="borrarobra" runat="server" BackColor="#465C71" 
+                BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
+                OnClick="borrarObra1" Style="color: #DDE4EC" Text="Borrar Obra" Width="150px" />
+            </asp:button>
+            <asp:Button ID="desideratas" runat="server" BackColor="#465C71" 
+                BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
+                OnClick="verDesideratas" Style="color: #DDE4EC" Text="Desideratas" 
+                Width="150px" />
+            </asp:button>
         </br>
-                 <asp:Button ID="asignarprestamo"  
-                    runat="server"
-                    Width  = 150px
-                    Height = 30px
-                    Style="color: #DDE4EC" 
-                    
-                    BorderColor = "#4E667D"
-                    BorderStyle = "Solid"
-                    BorderWidth = "3px"
-                    BackColor="#465C71"
-                    
-                    Text="Asignar Prestamo"
-                    OnClick="asignarPrestamo"/>
-                 </asp:Button>
-                 <asp:Button ID="altaobra"  
-                    runat="server"
-                    Width  = 150px
-                    Height = 30px
-                    Style="color: #DDE4EC" 
-                    
-                    BorderColor = "#4E667D"
-                    BorderStyle = "Solid"
-                    BorderWidth = "3px"
-                    BackColor="#465C71"
-                    
-                    Text="Nueva obra"
-                    OnClick="nuevaObra"/>
-                 </asp:Button>
-                 <asp:Button ID="modificarobra"  
-                    runat="server"
-                    Width  = 150px
-                    Height = 30px
-                    Style="color: #DDE4EC" 
-                    
-                    BorderColor = "#4E667D"
-                    BorderStyle = "Solid"
-                    BorderWidth = "3px"
-                    BackColor="#465C71"
-                    
-                    Text="Modificar Obra"
-                    OnClick="modificaObra"/>
-                 </asp:Button>
-                  <asp:Button ID="borrarobra"  
-                    runat="server"
-                    Width  = 150px
-                    Height = 30px
-                    Style="color: #DDE4EC" 
-                    
-                    BorderColor = "#4E667D"
-                    BorderStyle = "Solid"
-                    BorderWidth = "3px"
-                    BackColor="#465C71"
-                    
-                    Text="Borrar Obra"
-                    OnClick="borrarObra1"/>
-                 </asp:Button>
-                <asp:Button ID="desideratas"  
-                    runat="server"
-                    Width  = 150px
-                    Height = 30px
-                    Style="color: #DDE4EC" 
-                    
-                    BorderColor = "#4E667D"
-                    BorderStyle = "Solid"
-                    BorderWidth = "3px"
-                    BackColor="#465C71"
-                    
-                    Text="Desideratas"
-                    OnClick="verDesideratas"/>
-                 </asp:Button>
                  
                 
         </div>    

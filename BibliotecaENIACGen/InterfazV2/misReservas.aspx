@@ -5,11 +5,89 @@
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <asp:Panel ID="Panel1"  runat="server">
+    <asp:Panel ID="PanelUsuario"  runat="server">
         <div align="right"> 
             <asp:Label ID="labelUsuario" runat="server" Text=""></asp:Label> 
             <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
         </div>
+        <div>
+        </br>
+                 <asp:Button ID="hacerreserva"  
+                    runat="server"
+                    Width  = 150px
+                    Height = 30px
+                    Style="color: #DDE4EC" 
+                    
+                    BorderColor = "#4E667D"
+                    BorderStyle = "Solid"
+                    BorderWidth = "3px"
+                    BackColor="#465C71"
+                    
+                    Text="Hacer Reservas"
+                    OnClick="hacerReservas"/>
+                 </asp:Button>
+                <asp:Button ID="misreservas"  
+                    runat="server"
+                    Width  = 150px
+                    Height = 30px
+                    Style="color: #DDE4EC" 
+                    
+                    BorderColor = "#4E667D"
+                    BorderStyle = "Solid"
+                    BorderWidth = "3px"
+                    BackColor="#465C71"
+                    
+                    Text="Mis Reservas"
+                    OnClick="mostrarReservas"/>
+                 </asp:Button>
+                 <asp:Button ID="misprestamos"  
+                    runat="server"
+                   Width  = 150px
+                    Height = 30px
+                    Style="color: #DDE4EC" 
+                    
+                    BorderColor = "#4E667D"
+                    BorderStyle = "Solid"
+                    BorderWidth = "3px"
+                    BackColor="#465C71"
+                    
+                    Text="Mis Prestamos"
+                    OnClick="misPrestamos"/>
+                 </asp:Button>
+                 <asp:Button ID="misdatos"  
+                    runat="server"
+                    Width  = 150px
+                    Height = 30px
+                    Style="color: #DDE4EC" 
+                    
+                    BorderColor = "#4E667D"
+                    BorderStyle = "Solid"
+                    BorderWidth = "3px"
+                    BackColor="#465C71"
+                    
+                    Text="Mis Datos"
+                    OnClick="misDatos"/>
+                 </asp:Button>
+
+                  <asp:Button ID="desideratas"  
+                    runat="server"
+                    Width  = 150px
+                    Height = 30px
+                    Style="color: #DDE4EC" 
+                    
+                    BorderColor = "#4E667D"
+                    BorderStyle = "Solid"
+                    BorderWidth = "3px"
+                    BackColor="#465C71"
+                    
+                    Text="Desideratas"
+                    OnClick="hacerDesideratas"/>
+                 </asp:Button>
+                
+        </div>    
+    </asp:Panel>
+
+    <asp:Panel ID="Panel1"  runat="server">
         <div id="formularioBusqueda">
             <asp:Label ID="Label1" runat="server" Text="Buscar: "></asp:Label>
             <asp:TextBox ID="textBox"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>

@@ -15,8 +15,29 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-
+            UsuarioEN usuario = (UsuarioEN)Session["usuario"];
+            if (usuario == null)
+            {
+                Response.Redirect("formLogin.aspx");
+            }
+            else if (usuario != null)
+            {
+                if (usuario.Tipousuario == 2)
+                {
+                    labelUsuario.Text = "Bienvenido:  " + usuario.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
+                }
+                else if (usuario.Tipousuario == 1)
+                    Response.Redirect("zonaUsuario.aspx");
+                else
+                    Response.Redirect("zonaDirector.aspx");
+            }
+            else
+            {
+                linkSalir.Text = "Iniciar sesión";
+            }
         }
         protected void asignarPrestamo(object sender, EventArgs e)
         {
@@ -40,81 +61,9 @@ namespace InterfazV2
         }
         protected void BorrarObraPorIsbn(object sender, EventArgs e)
         {
-            ObraCEN obra = new ObraCEN();
-            ObraEN obraEN = obra.BuscaPorId(busquedaInput.Text);
-            if (obraEN != null)
-            {
-                /*
-                 * Borrar en cascada bloque autores
-                 */
-                AutorEN autorEn = new AutorEN();
-                AutorCEN autorCEn = new AutorCEN();
-                System.Collections.Generic.IList<String> autores = null;
-                System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN> autoresDefinitivos;
-                
-                autores = new List<String>();
 
-                autoresDefinitivos = new List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.AutorEN>();
-
-                for (int i = 0; i < obraEN.Escrita.Count; i++)
-                {
-                    autores.Add(obraEN.Escrita[i].Nombre);
-                }
-                    
-                autoresDefinitivos = autorCEn.BuscarAutor(autores);
-                for (int i = 0; i < obraEN.Escrita.Count; i++)
-                {
-                    for (int j = 0; j < autoresDefinitivos[i].Escribe.Count; j++)
-                    {
-                        if (autoresDefinitivos[i].Escribe[j].Nombre == obraEN.Nombre)
-                        {
-                            autoresDefinitivos[i].Escribe.RemoveAt(j);
-                            j--;
-                        }
-                    }
-                    AutorCAD autorCad = new AutorCAD();
-                    autorCad.Modify(autoresDefinitivos[i]);
-                    
-                }
-
-                /*
-                 * Borrar en cascada bloque Tematica
-                 */
-                TematicaEN tematicaEn = new TematicaEN();
-                TematicaCEN tematicaCEn = new TematicaCEN();
-                System.Collections.Generic.IList<String> tematica = null;
-                System.Collections.Generic.IList<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.TematicaEN> tematicaDefinitivos;
-
-                tematica = new List<String>();
-
-                tematicaDefinitivos = new List<BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.TematicaEN>();
-
-                for (int i = 0; i < obraEN.Tematica.Count; i++)
-                {
-                    tematica.Add(obraEN.Tematica[i].Nombre);
-                }
-
-                tematicaDefinitivos = tematicaCEn.BuscarTematica(tematica);
-                for (int i = 0; i < obraEN.Tematica.Count; i++)
-                {
-                    for (int j = 0; j < tematicaDefinitivos[i].Obra.Count; j++)
-                    {
-                        
-                        if (tematicaDefinitivos[i].Obra[j].Nombre == obraEN.Nombre)
-                        {
-                            tematicaDefinitivos[i].Obra.RemoveAt(j);
-                            j--;
-                            
-                        }
-                    }
-                    TematicaCAD tematicaCad = new TematicaCAD();
-                    tematicaCad.Modify(tematicaDefinitivos[i]);
-
-                }
-
-                //borrar definitivo
-                obra.Destroy(busquedaInput.Text);
-            }
+            PASCEN pas = new PASCEN();
+            pas.BorrarObra(busquedaInput.Text);
         }
 
         protected void buscarObraIsbn(object sender, EventArgs e)
@@ -269,6 +218,31 @@ namespace InterfazV2
             }
 
 
+        }
+
+        protected void linkSalir_Click(object sender, EventArgs e)
+        {
+            if (linkSalir.Text == "Salir")
+            {
+                Session.Remove("usuario");
+                labelUsuario.Visible = false;
+                Response.Redirect("Default.aspx");
+            }
+            else
+            {
+                UsuarioEN aux = (UsuarioEN)Session["usuario"];
+                if (aux != null)
+                {
+                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
+                }
+                else
+                {
+                    Response.Redirect("formLogin.aspx");
+                }
+            }
         }
     }
 }

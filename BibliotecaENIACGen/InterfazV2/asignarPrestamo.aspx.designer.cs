@@ -22,6 +22,24 @@ namespace InterfazV2 {
         protected global::System.Web.UI.WebControls.Panel PanelPASMod;
         
         /// <summary>
+        /// Control labelUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelUsuario;
+        
+        /// <summary>
+        /// Control linkSalir.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton linkSalir;
+        
+        /// <summary>
         /// Control asignarprestamo.
         /// </summary>
         /// <remarks>
@@ -112,6 +130,33 @@ namespace InterfazV2 {
         protected global::System.Web.UI.WebControls.TextBox IsbnInput;
         
         /// <summary>
+        /// Control Ejemplar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Ejemplar;
+        
+        /// <summary>
+        /// Control EjamplarInput.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EjamplarInput;
+        
+        /// <summary>
+        /// Control EjmplarRequired.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator EjmplarRequired;
+        
+        /// <summary>
         /// Control confirmar.
         /// </summary>
         /// <remarks>
@@ -119,5 +164,14 @@ namespace InterfazV2 {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button confirmar;
+        
+        /// <summary>
+        /// Control eliminar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button eliminar;
     }
 }

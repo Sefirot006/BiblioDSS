@@ -96,5 +96,30 @@ namespace InterfazV2
                 }
             }
         }
+
+        protected void hacerDesideratas(object sender, EventArgs e)
+        {
+            Response.Redirect("Desiderata.aspx");
+        }
+
+        protected void misdatos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("misDatos.aspx");
+        }
+
+        protected void misprestamos_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void misreservas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void hacerreserva_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("misReservas.aspx");
+        }
     }
 }

@@ -37,8 +37,6 @@ namespace InterfazV2
             {
                 linkSalir.Text = "Iniciar sesión";
             }
-
-
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
@@ -90,6 +88,31 @@ namespace InterfazV2
                     Response.Redirect("formLogin.aspx");
                 }
             }
+        }
+
+        protected void hacerDesideratas(object sender, EventArgs e)
+        {
+            Response.Redirect("Desiderata.aspx");
+        }
+
+        protected void misDatos(object sender, EventArgs e)
+        {
+            Response.Redirect("misDatos.aspx");
+        }
+
+        protected void misPrestamos(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void mostrarReservas(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void hacerReservas(object sender, EventArgs e)
+        {
+            Response.Redirect("misReservas.aspx");
         }
     }
 }

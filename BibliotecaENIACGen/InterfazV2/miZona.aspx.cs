@@ -14,46 +14,43 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string usuario = Convert.ToString(Session["idUser"]);
-            string pass = Convert.ToString(Session["pass"]);
+            UsuarioEN usuario = (UsuarioEN)Session["usuario"];
+            if (usuario.Tipousuario == 1)
+                Response.Redirect("zonaUsuario.aspx");
+            else if (usuario.Tipousuario == 2)
+                Response.Redirect("zonaPAS.aspx");
+            else if (usuario.Tipousuario == 3)
+                Response.Redirect("zonaDirector.aspx");
+         }
 
-            //Vamos averiguar de que tipo es el usuario loggueado
-
-            /*DirectorCEN directorCEN = new DirectorCEN();
-            DirectorEN directorEN = new DirectorEN();
-            DirectorCAD directorCAD = new DirectorCAD();
-
-             directorEN = directorCAD.ReadOIDDefault(usuario);*/
-
-            UsuarioCEN userCEN = new UsuarioCEN();
-            UsuarioEN userEN = new UsuarioEN();
-
-            userEN = userCEN.DameporOID(usuario);
-            if (userEN != null)//Como minimo es usuario normal
-            {
-                //diferentes vistas según el tipo de usuario
-                if (userEN.Tipousuario == 1)//usuario normal
-                {
-                    Response.Redirect("zonaUsuario.aspx");
-
-                }
-                else if (userEN.Tipousuario == 2)//usuario PAS
-                {
-                    Response.Redirect("zonaPAS.aspx");
-                }
-                else if (userEN.Tipousuario == 3)//usuario Director
-                {
-                    Response.Redirect("zonaDirector.aspx");
-                }
-
-
-
-
-            }
-        }
         protected void Reservas(object sender, EventArgs e, UsuarioEN user)
         {
             Console.WriteLine("Entro");
+        }
+
+        protected void linkSalir_Click(object sender, EventArgs e)
+        {
+            if (linkSalir.Text == "Salir")
+            {
+                Session.Remove("usuario");
+                labelUsuario.Visible = false;
+                Response.Redirect("Default.aspx");
+            }
+            else
+            {
+                UsuarioEN aux = (UsuarioEN)Session["usuario"];
+                if (aux != null)
+                {
+                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
+                    linkSalir.Text = "Salir";
+                    labelUsuario.Visible = true;
+                    linkSalir.Visible = true;
+                }
+                else
+                {
+                    Response.Redirect("formLogin.aspx");
+                }
+            }
         }
 
 
