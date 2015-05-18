@@ -45,7 +45,7 @@ namespace InterfazV2
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
-
+            Response.Redirect("desideratas.aspx");
         }
         protected void nuevaObra(object sender, EventArgs e)
         {

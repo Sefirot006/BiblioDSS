@@ -10,7 +10,6 @@
             <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
         </div>
         <div>
-        </br>
                  <asp:Button ID="hacerreserva"  
                     runat="server"
                     Width  = 150px

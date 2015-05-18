@@ -184,3 +184,15 @@ C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\InterfazV2\bin\B
 C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.csprojResolveAssemblyReference.cache
 C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
 C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\hibernate.cfg.xml
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\InterfazV2.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\NHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\Iesi.Collections.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\log4net.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\bin\BibliotecaENIACGenNHibernate.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\InterfazV2\obj\Debug\InterfazV2.pdb

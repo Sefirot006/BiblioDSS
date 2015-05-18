@@ -52,9 +52,7 @@ namespace InterfazV2
                 for (i = 0; i < autores.Count; i++)
                 {
                     ListItem l = new ListItem(autores[i].Nombre);
-
                     ListBox1.Items.Add(l);
-
                 }
             }
 
@@ -68,12 +66,9 @@ namespace InterfazV2
                 for (i = 0; i < temas.Count; i++)
                 {
                     ListItem l = new ListItem(temas[i].Nombre);
-
                     tematica.Items.Add(l);
-
                 }
             }
-            
         }
         protected void asignarPrestamo(object sender, EventArgs e)
         {
@@ -81,13 +76,11 @@ namespace InterfazV2
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
-
+            Response.Redirect("desideratas.aspx");
         }
         protected void newObra(object sender, EventArgs e)
         {
             Response.Redirect("nuevaObra.aspx");
-
-
         }
         protected void modificarObra(object sender, EventArgs e)
         {
@@ -97,7 +90,6 @@ namespace InterfazV2
         {
             Response.Redirect("borrarObra.aspx");
         }
-      
 
         protected void confirmarObra(object sender, EventArgs e)
         {
@@ -113,9 +105,8 @@ namespace InterfazV2
             autores = new List<String>();
             ObraEN obraEn = new ObraEN();
 
-           obraEn = obra.BuscaPorId(id);
+            obraEn = obra.BuscaPorId(id);
            
-
             foreach (ListItem li in ListBox1.Items)
             {
                 if (li.Selected)
@@ -133,7 +124,6 @@ namespace InterfazV2
                 if (li.Selected)
                 {
                     //TematicaEN theme = new TematicaEN();
-                    
                     temas.Add(li.Text);
                 }
             }

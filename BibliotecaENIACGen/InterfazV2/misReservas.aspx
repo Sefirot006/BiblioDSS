@@ -11,7 +11,6 @@
             <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
         </div>
         <div>
-        </br>
                  <asp:Button ID="hacerreserva"  
                     runat="server"
                     Width  = 150px
@@ -90,7 +89,7 @@
     <asp:Panel ID="Panel1"  runat="server">
         <div id="formularioBusqueda">
             <asp:Label ID="Label1" runat="server" Text="Buscar: "></asp:Label>
-            <asp:TextBox ID="textBox"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
+            <asp:TextBox ID="textBox"  runat="server" MaxLength="100" Width="596px" ></asp:TextBox>
             <br />
             <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
             <asp:Button ID="Button1"  Width="130px" runat="server" Text="Buscar Por Autor" OnClick="mostrarObrasA_click"/></asp:Button>

@@ -10,7 +10,6 @@
             <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
         </div>
         <div>
-            </br>
             <asp:Button ID="hacerreserva" runat="server" BackColor="#465C71" 
                 BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
                 onclick="hacerreserva_Click" Style="color: #DDE4EC" Text="Hacer Reservas" 
@@ -36,7 +35,6 @@
                 OnClick="hacerDesideratas" Style="color: #DDE4EC" Text="Desideratas" 
                 Width="150px" />
             </asp:button>
-        </br>
                 
         </div>    
     </asp:Panel>

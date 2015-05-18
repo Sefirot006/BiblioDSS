@@ -94,10 +94,8 @@ namespace InterfazV2
                     PanelDesi.Controls.Add(lmsg);
                     PanelDesi.Controls.Add(new LiteralControl("&nbsp"));
                 }
-                
             }
             
-
         }
         protected void enviarEmail(object sender, EventArgs e,string correoPas, string correoUsu, string passPas, string titulo)
         {
@@ -161,9 +159,6 @@ namespace InterfazV2
             }*/
 
             
-
-
-
         }
         protected void listarDesideratasFalse(object sender, EventArgs e)
         {

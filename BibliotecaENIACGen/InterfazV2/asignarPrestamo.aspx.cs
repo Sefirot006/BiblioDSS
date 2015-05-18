@@ -45,7 +45,7 @@ namespace InterfazV2
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
-
+            Response.Redirect("desideratas.aspx");
         }
         protected void nuevaObra(object sender, EventArgs e)
         {
@@ -79,7 +79,6 @@ namespace InterfazV2
             DateTime devolucion = new DateTime();
             devolucion = DateTime.Now;
             devolucion = devolucion.AddDays(7);
-            String salida;
 
             if (EjamplarInput.Text != "" && DNIInput.Text != "" && IsbnInput.Text != "")
             {

@@ -14,7 +14,7 @@
             <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
         </div>
         <div>
-        </br>
+            <br>
                  <asp:Button ID="asignarprestamo"  
                     runat="server"
                     Width  = 150px
@@ -97,7 +97,8 @@
             <asp:TextBox ID="desiInput"  runat="server" MaxLength="100"  style="width:200px" ></asp:TextBox>
         <br>
         <br>
-             <asp:Label ID="email"  runat="server" Text="Correo PAS:&nbsp&nbsp&nbsp&nbsp "></asp:Label>
+             <asp:Label ID="email"  runat="server" 
+                Text="Correo PAS:&amp;nbsp&amp;nbsp&amp;nbsp"></asp:Label>
             <asp:TextBox ID="emailInput"  runat="server" MaxLength="100"  style="width:200px" ></asp:TextBox>
         <br>
         <br>

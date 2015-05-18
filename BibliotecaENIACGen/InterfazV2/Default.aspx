@@ -11,13 +11,14 @@
             <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
         </div>
         <div id="formularioBusqueda">
-            <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
             <asp:Label ID="Label1"  runat="server" Text="Buscar: "></asp:Label>
-            <asp:TextBox ID="textBox"  runat="server" MaxLength="100"  style="width:400px" ></asp:TextBox>
+            <asp:TextBox ID="textBox" runat="server" MaxLength="100" style="width:400px"></asp:TextBox>
             <br />
-            <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
-            <asp:Button ID="Button1"  Width="130px" runat="server" Text="Buscar Por Autor" OnClick="mostrarObrasA_click"/></asp:Button>
-            <asp:Button ID="Button2"  Width="130px" runat="server" Text="Buscar Por Título" OnClick="mostrarObrasN_click"/></asp:Button>
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;
+            <asp:Button ID="Button1"  Width="128px" runat="server" Text="Buscar Por Autor" 
+                OnClick="mostrarObrasA_click"/></asp:Button>
+            <asp:Button ID="Button2"  Width="128px" runat="server" Text="Buscar Por Título" 
+                OnClick="mostrarObrasN_click"/></asp:Button>
             <asp:Button ID="Button3"  Width="140px" runat="server" Text="Buscar Por Temática" OnClick="mostrarObrasT_click"/></asp:Button>
         </div>
     </asp:Panel>

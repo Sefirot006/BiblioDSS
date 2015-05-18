@@ -15,7 +15,6 @@
         </div>
         <div>
           <br>
-            <br></br>
             <asp:Button ID="asignarprestamo" runat="server" BackColor="#465C71" 
                 BorderColor="#4E667D" BorderStyle="Solid" BorderWidth="3px" Height="30px" 
                 OnClick="asignarPrestamo" Style="color: #DDE4EC" Text="Asignar Prestamo" 

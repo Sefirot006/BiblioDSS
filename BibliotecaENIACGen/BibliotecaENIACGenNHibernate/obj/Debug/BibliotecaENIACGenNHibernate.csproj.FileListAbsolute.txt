@@ -133,3 +133,18 @@ C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\BibliotecaENIACG
 C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\obj\Debug\BibliotecaENIACGenNHibernate.csprojResolveAssemblyReference.cache
 C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\obj\Debug\BibliotecaENIACGenNHibernate.dll
 C:\Users\Aldrin\Downloads\BibliotecaENIACGen\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\obj\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\BibliotecaENIACGenNHibernate.dll.config
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\BibliotecaENIACGenNHibernate.pdb
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\NHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\bin\Debug\log4net.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\obj\Debug\BibliotecaENIACGenNHibernate.dll
+C:\Documents and Settings\ooh4riaUser\My Documents\Proyectos\DSS\BibliotecaENIACGen\BibliotecaENIACGenNHibernate\obj\Debug\BibliotecaENIACGenNHibernate.pdb

@@ -16,29 +16,7 @@ namespace InterfazV2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            UsuarioEN usuario = (UsuarioEN)Session["usuario"];
-            if (usuario == null)
-            {
-                Response.Redirect("formLogin.aspx");
-            }
-            else if (usuario != null)
-            {
-                if (usuario.Tipousuario == 3)
-                {
-                    labelUsuario.Text = "Bienvenido:  " + usuario.Nombre;
-                    linkSalir.Text = "Salir";
-                    labelUsuario.Visible = true;
-                    linkSalir.Visible = true;
-                }
-                else if (usuario.Tipousuario == 2)
-                    Response.Redirect("zonaPAS.aspx");
-                else
-                    Response.Redirect("zonaUsuario.aspx");
-            }
-            else
-            {
-                linkSalir.Text = "Iniciar sesión";
-            }
+
         }
         protected void altaPas(object sender, EventArgs e)
         {
@@ -54,7 +32,7 @@ namespace InterfazV2
         }
         protected void checkPrestamos(object sender, EventArgs e)
         {
-            
+            Response.Redirect("prestamosChequear.aspx");
         }
 
         protected void enviarEmail(object sender, EventArgs e, string correoPas, string correoUsu, string passPas, string titulo)
@@ -117,31 +95,6 @@ namespace InterfazV2
                     //presta.Usuario.Correo
 
                     enviarEmail(sender, e, emailInput.Text, presta.Usuario.Correo, passInput.Text, presta.Ejemplar.Obra.Nombre);
-                }
-            }
-        }
-
-        protected void linkSalir_Click(object sender, EventArgs e)
-        {
-            if (linkSalir.Text == "Salir")
-            {
-                Session.Remove("usuario");
-                labelUsuario.Visible = false;
-                Response.Redirect("Default.aspx");
-            }
-            else
-            {
-                UsuarioEN aux = (UsuarioEN)Session["usuario"];
-                if (aux != null)
-                {
-                    labelUsuario.Text = "Bienvenido:  " + aux.Nombre;
-                    linkSalir.Text = "Salir";
-                    labelUsuario.Visible = true;
-                    linkSalir.Visible = true;
-                }
-                else
-                {
-                    Response.Redirect("formLogin.aspx");
                 }
             }
         }

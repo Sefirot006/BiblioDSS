@@ -46,8 +46,6 @@ namespace InterfazV2
         protected void linkOut_Click(object sender, EventArgs e)
         {
             Response.Redirect("formRegistro.aspx");
-        }
-
-        
+        }      
     }
 }

@@ -9,12 +9,8 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
  
     <asp:Panel ID="PanelDirector"  runat="server">
-        <div align="right"> 
-            <asp:Label ID="labelUsuario" runat="server" Text=""></asp:Label> 
-            <asp:LinkButton ID="linkSalir" runat="server" onclick="linkSalir_Click">Iniciar sesión</asp:LinkButton> 
-        </div>
         <div>
-        </br>
+            </br>
                  <asp:Button ID="altapas"  
                     runat="server"
                     Width  = 150px
@@ -44,7 +40,7 @@
                     Text="Baja PAS"
                     OnClick="bajaPas"/>
                  </asp:Button>
-                  <asp:Button ID="nuevodirector"  
+                  <asp:Button ID="nuevodirector"
                     runat="server"
                     Width  = 150px
                     Height = 30px
@@ -58,7 +54,7 @@
                     Text="Nuevo Director"
                     OnClick="nuevoDirector"/>
                  </asp:Button>
-                  <asp:Button ID="checkprestamos"  
+                  <asp:Button ID="checkprestamos"
                     runat="server"
                     Width  = 150px
                     Height = 30px

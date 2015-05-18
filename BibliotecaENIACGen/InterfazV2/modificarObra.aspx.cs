@@ -46,7 +46,7 @@ namespace InterfazV2
         }
         protected void verDesideratas(object sender, EventArgs e)
         {
-
+            Response.Redirect("desideratas.aspx");
         }
         protected void nuevaObra(object sender, EventArgs e)
         {
@@ -88,7 +88,7 @@ namespace InterfazV2
             ObraEN obraEn = new ObraEN();
             ObraCEN obra = new ObraCEN();
             string id = "";
-            int i = 0;
+            //int i = 0;
             if (busquedaInput.Text.Count() > 0)
             {
                 id = busquedaInput.Text;

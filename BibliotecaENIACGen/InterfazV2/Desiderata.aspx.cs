@@ -102,12 +102,12 @@ namespace InterfazV2
 
         protected void misPrestamos(object sender, EventArgs e)
         {
-            Response.Redirect("prestamosChequear.aspx");
+            Response.Redirect("misPrestamos.aspx");
         }
 
         protected void mostrarReservas(object sender, EventArgs e)
         {
-
+            Response.Redirect("misReservas.aspx");
         }
 
         protected void hacerReservas(object sender, EventArgs e)
