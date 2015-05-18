@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="BibliotecaENIACGenNHibernate"
+		                   namespace="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC">
+				
+<joined-subclass name="SocioEN" extends="BibliotecaENIACGenNHibernate.EN.BibliotecaENIAC.UsuarioEN" table="[Socio]">
+	<key>
+    		<column name="[DNIUsuario]"/>
+   	</key>
+
+		
+		  </joined-subclass>	
+		  
+		  <query name="SocioENReadAllHQL">from SocioEN</query>
+		</hibernate-mapping>
+	
